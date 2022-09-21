@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones Web',
+    descripcionCurso:
+      'En esta última década el avance tecnológico impulsó a las empresas a trasladar buena parte de sus actividades y servicios hacia el mundo digital por medio de la sistematización de sus procesos a través de la creación de aplicaciones web. Sin embargo, pese a las ventajas adquiridas, también se contraen sus principales desventajas ligadas a los ataques cibernéticos, virus y demás afectaciones posibles del mundo software. <br> Es por ello, que el área dedicada a la seguridad web se ha convertido en uno de los temas de mayor interés para los expertos y profesionales de las tecnologías alrededor del planeta. Dentro de esta temática, un proceso importante radica en la detección temprana de vulnerabilidades por monitoreo o sondeo de aplicaciones, tema que será abordado a continuación.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -32,31 +34,81 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo:
+              'Identificación del estado actual de la Seguridad en Aplicaciones Web',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo:
+              'Definición de los objetivos de la Seguridad en Aplicaciones Web',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Determinación del estado deseado de la Seguridad en Aplicaciones Web',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Definición de los Indicadores en Aplicaciones Web',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Definición de Métricas de la Seguridad',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Ejecución del Plan Estratégico de la Seguridad en Aplicaciones Web',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Herramientas de Monitoreo de Seguridad en Aplicaciones Web',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo:
+              'El marco de conocimiento de seguridad (Security Knowledge Framework)',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Medición de tráfico',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
