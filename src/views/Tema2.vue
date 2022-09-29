@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1(data-aos="fade-right") Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web
+      h1(data-aos="fade-right") Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones <em>Web</em>
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 1.
-      span Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web
+      span Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -21,14 +21,14 @@
     Separador
 
     #t_2_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.1 Identificación del estado actual de la Seguridad en Aplicaciones Web
+        h2 2.1 Identificación del estado actual de la Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img.img-t.m-auto(src='@/assets/curso/tema2/img02.png', alt='')
       .col-lg-9(data-aos="fade-left")
-        p <b>El primer paso para generar un plan estratégico consiste en identificar el estado actual en el que se encuentra la seguridad en aplicaciones web; para ello es posible utilizar dos enfoques:</b> a partir de un modelo de madurez o por los niveles ASVS que verifican la seguridad en sistemas web. El enfoque por madurez requiere de un proyecto base que permita generar el contraste y el punto de partida, por ello el enfoque basado en los niveles permite iniciar el plan a partir del esfuerzo en conjunto de la dirección general y los equipos relacionados con TI siguiendo el marco de referencia ofrecido por el OWASP y sus comunidades. Para ello se tienen los siguientes artefactos de entrada, salida y las actividades en esta fase: 
+        p <b>El primer paso para generar un plan estratégico consiste en identificar el estado actual en el que se encuentra la seguridad en aplicaciones <em>web</em>; para ello es posible utilizar dos enfoques:</b> a partir de un modelo de madurez o por los niveles ASVS que verifican la seguridad en sistemas <em>web</em>. El enfoque por madurez requiere de un proyecto base que permita generar el contraste y el punto de partida, por ello el enfoque basado en los niveles permite iniciar el plan a partir del esfuerzo en conjunto de la dirección general y los equipos relacionados con TI siguiendo el marco de referencia ofrecido por el OWASP y sus comunidades. Para ello se tienen los siguientes artefactos de entrada, salida y las actividades en esta fase: 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").color3
       .row.justify-content-center(titulo="Artefactos de Entrada")
@@ -36,7 +36,7 @@
           ul.lista-ul.mb-4
             li
               i.fas.fa-check-circle
-              | Inventario de activos software, licencias y hardware.
+              p.m-0 Inventario de activos <em>software</em>, licencias y <em>hardware</em>.
             li
               i.fas.fa-check-circle
               | Inventario de activos de información.
@@ -86,9 +86,9 @@
     .row.mb-4(data-aos="fade-right")
       .col-lg-5.col-xl-6.col-xxl-5
         .bg_2.p-2
-          p.text-bold.m-0.ms-3 Niveles de verificación de seguridad de aplicaciones Web
+          p.text-bold.m-0.ms-3 Niveles de verificación de seguridad de aplicaciones <em>web</em>
 
-    p.mb-5 El ASVS ha definido tres niveles de verificación en los cuales se aumenta la profundidad de los conceptos con cada nivel superado y estos contienen una lista de requisitos intrínsecos que garantizan la ciberseguridad correspondiendo a una funcionalidad o un grupo de ellas orientadas netamente al tema en cuestión, las cuales deben ser implementadas por los equipos de desarrollo de software. Los niveles son los siguientes:
+    p.mb-5 El ASVS ha definido tres niveles de verificación en los cuales se aumenta la profundidad de los conceptos con cada nivel superado y estos contienen una lista de requisitos intrínsecos que garantizan la ciberseguridad correspondiendo a una funcionalidad o un grupo de ellas orientadas netamente al tema en cuestión, las cuales deben ser implementadas por los equipos de desarrollo de <em>software</em>. Los niveles son los siguientes:
 
     .d-flex.flex-wrap.align-items-stretch
       .col-12.col-md-6.col-lg-4.px-md-3.d-flex.content-tj-hover
@@ -97,7 +97,7 @@
           img.img-t.mb-4(src="@/assets/curso/tema2/img05.svg")
           .bg_5.p-2.mb-4
             h4.text-white.m-0 Nivel 1 (Oportunista)
-          p.mb-0 El nivel base no distingue software puesto que sirve para todos los sistemas.
+          p.mb-0 El nivel base no distingue <em>software</em> puesto que sirve para todos los sistemas.
       .col-12.col-md-6.col-lg-4.px-md-3.d-flex.content-tj-hover
         .tarjeta-hover-up.p-4.p-xl-5
           img.img-t.mb-4(src="@/assets/curso/tema2/img06.svg")
@@ -121,7 +121,7 @@
         LineaTiempoD.color-acento-contenido
           p.mt-3(numero="1" titulo="Nivel 1 (Oportunista)") Para una organización el nivel oportunista es muy apropiado si tiene sistemas donde la información capturada requiere de un nivel bajo de confiabilidad e integridad donde la falta o pérdida de algunos de estos datos no impacte inminentemente el proceso o flujo de la aplicación.<br><br> Este nivel proporciona a la gerencia un análisis rápido al ecosistema de aplicaciones que posean o les permite elaborar una lista de requerimientos en seguridad de aplicaciones que hacen parte de un plan estratégico de seguridad realizado en fases. 
           
-          p.mt-3(numero="2" titulo="Nivel 2 (Estándar) ") El nivel dos del ASVS tiene como premisa asegurar que dentro de las organizaciones se conozcan y existan controles de seguridad en las aplicaciones ubicados en lugar correspondiente y con el mayor porcentaje de efectividad.<br><br> Las aplicaciones que deben estar a este nivel por lo general realizan transacciones comerciales entre organizaciones conocidas como <b>negocio a negocio (business-to-business, B2B)</b>, sistemas de gestión de información del área de la salud, aplicaciones que implementan operaciones sensibles para el negocio o mantienen otros activos sensibles de terceros.
+          p.mt-3(numero="2" titulo="Nivel 2 (Estándar) ") El nivel dos del ASVS tiene como premisa asegurar que dentro de las organizaciones se conozcan y existan controles de seguridad en las aplicaciones ubicados en lugar correspondiente y con el mayor porcentaje de efectividad.<br><br> Las aplicaciones que deben estar a este nivel por lo general realizan transacciones comerciales entre organizaciones conocidas como <em><b>negocio a negocio (business-to-business, B2B)</b></em>, sistemas de gestión de información del área de la salud, aplicaciones que implementan operaciones sensibles para el negocio o mantienen otros activos sensibles de terceros.
           
           p.mt-3(numero="3" titulo="Nivel 3 (Avanzado) ") Las aplicaciones a este nivel deben estar modularizadas considerablemente buscando facilitar la respuesta rápida ante fallos, la escalabilidad y una defensa coral construida de varias capas de seguridad. Cada módulo podría estar separado físicamente o en diferente conexión de red, a fin de lograr que por sí mismos se responsabilicen por la seguridad, estando todo debidamente documentado.<br><br> Dentro de las responsabilidades obligatoriamente se incluyen controles que certifican la confidencialidad a través del cifrado de los datos, la integridad transaccional, la validación de entradas, el manejo de auditorías en capa de persistencia, entre otros. 
 
@@ -147,7 +147,7 @@
     Separador
 
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.2 Definición de los objetivos de la Seguridad en Aplicaciones Web
+        h2 2.2 Definición de los objetivos de la Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.mb-0.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
@@ -177,7 +177,7 @@
           ul.lista-ul
             li
               i.fas.fa-check-circle
-              | Realizar talleres entre las partes interesadas para establecer los objetivos del plan estratégico y la meta a la que se anhela llegar en el nivel de verificación en seguridad de las aplicaciones web.
+              p.m-0 Realizar talleres entre las partes interesadas para establecer los objetivos del plan estratégico y la meta a la que se anhela llegar en el nivel de verificación en seguridad de las aplicaciones <em>web</em>.
             li
               i.fas.fa-check-circle
               | Generar listas de chequeo de requerimientos de seguridad sobre los niveles ASVS.
@@ -190,7 +190,7 @@
           ul.lista-ul.mb-4
             li
               i.fas.fa-check-circle
-              | Objetivos del plan estratégico de seguridad en aplicaciones web.
+              p.m-0 Objetivos del plan estratégico de seguridad en aplicaciones <em>web</em>.
             li
               i.fas.fa-check-circle
               | Listas de chequeo de los niveles de verificación ASVS.
@@ -211,14 +211,14 @@
     Separador
 
     #t_2_3.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.3 Determinación del estado deseado de la Seguridad en Aplicaciones Web
+        h2 2.3 Determinación del estado deseado de la Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.mb-0.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img11.svg')
       .col-lg-9.mb-5.mb-md-0(data-aos="fade-left")
-        p.mt-4 En esta fase del plan estratégico se establece el nivel de verificación al que se aspira llegar en cuanto a seguridad de las aplicaciones web. Teniendo presente las listas de chequeo recopiladas en el paso previo, los objetivos definidos plenamente por las partes interesadas, las limitaciones a las que se enfrenta la organización y el análisis del estado actual en materia de seguridad en aplicaciones web. A continuación, se presentan los siguientes artefactos de entrada, salida y las actividades en esta fase:
+        p.mt-4 En esta fase del plan estratégico se establece el nivel de verificación al que se aspira llegar en cuanto a seguridad de las aplicaciones <em>web</em>. Teniendo presente las listas de chequeo recopiladas en el paso previo, los objetivos definidos plenamente por las partes interesadas, las limitaciones a las que se enfrenta la organización y el análisis del estado actual en materia de seguridad en aplicaciones <em>web</em>. A continuación, se presentan los siguientes artefactos de entrada, salida y las actividades en esta fase:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").color3
       .row.justify-content-center(titulo="Artefactos de Entrada")
@@ -229,7 +229,7 @@
               | Listas de chequeo fase anterior.
             li
               i.fas.fa-check-circle
-              | Objetivos del plan estratégico de la seguridad en aplicaciones web.
+              p.m-0 Objetivos del plan estratégico de la seguridad en aplicaciones <em>web</em>.
             li
               i.fas.fa-check-circle
               | Limitaciones de negocio o de recursos de TI que imposibiliten llegar al nivel de verificación deseado.
@@ -267,14 +267,14 @@
     Separador
 
     #t_2_4.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.4 Definición de los Indicadores en Aplicaciones Web
+        h2 2.4 Definición de los Indicadores en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.mb-0.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img16.svg')
       .col-lg-9.mb-5.mb-md-0(data-aos="fade-left")
-        p.mt-4 Esta fase es vital en el plan estratégico de seguridad en aplicaciones web debido a que le proporciona a los interesados la manera correcta de cuantificar el rendimiento real del sistema después de realizar un plan estratégico de seguridad en aplicaciones web; permitiéndole a la gerencia un punto de referencia en la toma de decisiones, en las oportunidades de mejora o en el proceso de pivotar la dirección de los objetivos trazados por la corporación para lograr ventajas competitivas. 
+        p.mt-4 Esta fase es vital en el plan estratégico de seguridad en aplicaciones <em>web</em> debido a que le proporciona a los interesados la manera correcta de cuantificar el rendimiento real del sistema después de realizar un plan estratégico de seguridad en aplicaciones <em>web</em>; permitiéndole a la gerencia un punto de referencia en la toma de decisiones, en las oportunidades de mejora o en el proceso de pivotar la dirección de los objetivos trazados por la corporación para lograr ventajas competitivas. 
         p Dentro de esta etapa se definen cuatro importantes actividades que al final permiten gestar un paquete de métricas para implementar. Para este paso se establecen los siguientes artefactos de entrada, salida y las actividades: 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").color3
@@ -286,7 +286,7 @@
               | Meta establecida del nivel de verificación ASVS.
             li
               i.fas.fa-check-circle
-              | Objetivos del plan estratégico de la seguridad en aplicaciones web.
+              p.m-0 Objetivos del plan estratégico de la seguridad en aplicaciones <em>web</em>.
         .col-md-4.mb-4.mb-lg-0
           figure
             img.img-t.m-auto(src='@/assets/curso/tema2/img17.svg', alt='Texto que describa la imagen')
@@ -317,7 +317,7 @@
               | Listado del estado actual de los indicadores y métricas.
             li
               i.fas.fa-check-circle
-              | Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones web.
+              p.m-0 Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones <em>web</em>.
            
           h3 Actividades
           ul.lista-ul
@@ -329,7 +329,7 @@
               | Desarrollar un diccionario de indicadores y métricas que detalle la definición y el cálculo de la misma.
             li
               i.fas.fa-check-circle
-              p.m-0 Validar y asegurar que los indicadores y métricas preliminares se alinean con el objetivo del plan estratégico de la seguridad en aplicaciones web para su posterior aprobación por todos los <b><em>stakeholders.</em></b>
+              p.m-0 Validar y asegurar que los indicadores y métricas preliminares se alinean con el objetivo del plan estratégico de la seguridad en aplicaciones <em>web</em> para su posterior aprobación por todos los <b><em>stakeholders.</em></b>
             li
               i.fas.fa-check-circle
               | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.
@@ -344,11 +344,11 @@
           img.img-t(src='@/assets/curso/tema2/img19.svg')
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p.mt-3(numero="1" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones Web") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación web, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
+          p.mt-3(numero="1" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones <em>Web</em>") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación <em>web</em>, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
           
           .row(numero="2" titulo="Arquitectura, Diseño y Modelado de amenazas")
             .col-11
-              p  Se coloca al inicio de todos los requisitos por analizar debido al papel fundamental que juega el diseño, el modelado y la arquitectura para cualquier sistema software, puesto que, este define la estructuras que componen la aplicación y la forma como se comunican entre ellas, para tener la capacidad de satisfacer los atributos de calidad del sistema. Es por ello que para este elemento se debe asegurar que se cumplan estos requisitos:          
+              p  Se coloca al inicio de todos los requisitos por analizar debido al papel fundamental que juega el diseño, el modelado y la arquitectura para cualquier sistema <em>software</em>, puesto que, este define la estructuras que componen la aplicación y la forma como se comunican entre ellas, para tener la capacidad de satisfacer los atributos de calidad del sistema. Es por ello que para este elemento se debe asegurar que se cumplan estos requisitos:          
               a.anexo(:href="obtenerLink('downloads/Anexo3_LC_ArquitecturaDiseño_Tabla2.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -375,7 +375,7 @@
           
           .row(numero="5" titulo="Manejo de entrada de datos maliciosos")
             .col-11
-              p Otro requisito sensible en la seguridad de las aplicaciones web consiste en la validación de entrada de datos maliciosos al sistema provenientes de ataques oportunistas desde el mismo usuario de la aplicación. Esta debilidad permite la ejecución de distintos ataques al sistema de ficheros, ataques como inyección de intérprete, <em><b>cross-site scripting (XSS)</b></em>, ataques <em><b>locale/Unicode</b></em>, inyección de SQL y desbordamientos de búferes. Por lo cual es necesario validar que para este elemento se validan que:
+              p Otro requisito sensible en la seguridad de las aplicaciones <em>web</em> consiste en la validación de entrada de datos maliciosos al sistema provenientes de ataques oportunistas desde el mismo usuario de la aplicación. Esta debilidad permite la ejecución de distintos ataques al sistema de ficheros, ataques como inyección de intérprete, <em><b>cross-site scripting (XSS)</b></em>, ataques <em><b>locale/Unicode</b></em>, inyección de SQL y desbordamientos de búferes. Por lo cual es necesario validar que para este elemento se validan que:
               a.anexo(:href="obtenerLink('downloads/Anexo6_LC_ManejoEntradaDatosMaliciosos_Tabla5.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -468,9 +468,9 @@
                 .anexo__texto
                   p Anexo14_LC_Archivos y recursos_Tabla13             
 
-          .row(numero="4" titulo="Servicios Web")
+          .row(numero="4" titulo="Servicios <em>Web</em>")
             .col-11
-              p Es necesario que la aplicación verifique que al utilizar servicios web REST o SOAP mantenga:
+              p Es necesario que la aplicación verifique que al utilizar servicios <em>web</em> REST o SOAP mantenga:
               a.anexo(:href="obtenerLink('downloads/Anexo15_LC_ServiciosWeb_Tabla14.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
@@ -483,7 +483,7 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p.m-0 A partir de los anteriores requisitos el equipo TI puede plantear la selección de ciertos KPI y métricas que luego serán validadas y aprobadas por los interesados; que le permitan posteriormente a la gerencia identificar si el plan estratégico de la seguridad en aplicaciones web ha impactado positivamente los procesos y los sistemas aportando a los objetivos del negocio.
+          p.m-0 A partir de los anteriores requisitos el equipo TI puede plantear la selección de ciertos KPI y métricas que luego serán validadas y aprobadas por los interesados; que le permitan posteriormente a la gerencia identificar si el plan estratégico de la seguridad en aplicaciones <em>web</em> ha impactado positivamente los procesos y los sistemas aportando a los objetivos del negocio.
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-6.col-xl-7.col-xxl-6
@@ -496,7 +496,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img22.png')
       .col-lg-9(data-aos="fade-left")   
-        p Para afirmar que un proceso, servicio o producto mejora durante la ejecución de un plan, es necesario que existan mediciones que permitan evaluar, comparar y contrastar resultados a fin de respaldar esta declaración (G. V. Ríos, John A. Bohada e I. A. Delgado, 2018). Por esta razón el área de TI durante la fase de “Definición de los Indicadores y Métricas de la Seguridad en Aplicaciones Web”, del plan estratégico debe centrar sus esfuerzos en identificar los KPI y las métricas asociadas a ellos para brindar a los stakeholders un conjunto de herramientas e información puntual que les permitirá tomar decisiones y realizar acciones proactivas/reactivas frente a los objetivos del negocio y el direccionamiento estratégico de la organización.
+        p Para afirmar que un proceso, servicio o producto mejora durante la ejecución de un plan, es necesario que existan mediciones que permitan evaluar, comparar y contrastar resultados a fin de respaldar esta declaración (G. V. Ríos, John A. Bohada e I. A. Delgado, 2018). Por esta razón el área de TI durante la fase de “Definición de los Indicadores y Métricas de la Seguridad en Aplicaciones <em>Web</em>”, del plan estratégico debe centrar sus esfuerzos en identificar los KPI y las métricas asociadas a ellos para brindar a los stakeholders un conjunto de herramientas e información puntual que les permitirá tomar decisiones y realizar acciones proactivas/reactivas frente a los objetivos del negocio y el direccionamiento estratégico de la organización.
         p Ahora bien, antes de identificarlos es importante entender y diferenciar un KPI de una métrica para que el proceso de establecer ambos elementos sea exitoso:
 
     .row.justify-content-center.mb-5
@@ -527,7 +527,7 @@
             .col-lg-11 
               p Está relacionado al éxito de cada uno de los objetivos propuestos por una organización. En concreto un indicador se alinea al plan propuesto por la alta gerencia, por ejemplo, la tasa de crecimiento de los ingresos, el porcentaje de disponibilidad de la aplicación, o el tiempo de respuesta después de un fallo, entre otros. 
 
-    p Para establecer los KPI para el plan estratégico de seguridad en aplicaciones web que se van a estar monitoreando se pueden seguir algunos consejos simples que lo facilitan:
+    p Para establecer los KPI para el plan estratégico de seguridad en aplicaciones <em>web</em> que se van a estar monitoreando se pueden seguir algunos consejos simples que lo facilitan:
 
     .bg_slyder.p-5
       SlyderA(tipo="b")
@@ -595,9 +595,9 @@
     separador 
 
     #t_2_5.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 2.5 Definición de los Indicadores en Aplicaciones Web
+        h2 2.5 Definición de los Indicadores en Aplicaciones <em>Web</em>
 
-    p.mb-5 Como se indicó anteriormente los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones web. Así, las características más sobresalientes de las métricas son:
+    p.mb-5 Como se indicó anteriormente los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones <em>web</em>. Así, las características más sobresalientes de las métricas son:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
@@ -667,7 +667,7 @@
           figure
             img.img-t.m-auto(src='@/assets/curso/tema2/img33.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p.m-0 Si las métricas seleccionadas poseen estas características, permitirán a la corporación comprender de mejor forma los riesgos a los que se pueden enfrentar, las amenazas y problemas emergentes, identificar y aislar las debilidades y tener una evaluación más acertada del desempeño de los controles implementados en materia de seguridad en aplicaciones web; del mismo modo, se crearán oportunidades de mejora y actualización en procesos, herramientas y tecnologías en comparación a los actuales evidenciando el incremento y evolución de la cultura organizacional en materia de seguridad en sistemas. Las métricas en la temática de ciberseguridad pueden clasificarse de la siguiente manera:
+          p.m-0 Si las métricas seleccionadas poseen estas características, permitirán a la corporación comprender de mejor forma los riesgos a los que se pueden enfrentar, las amenazas y problemas emergentes, identificar y aislar las debilidades y tener una evaluación más acertada del desempeño de los controles implementados en materia de seguridad en aplicaciones <em>web</em>; del mismo modo, se crearán oportunidades de mejora y actualización en procesos, herramientas y tecnologías en comparación a los actuales evidenciando el incremento y evolución de la cultura organizacional en materia de seguridad en sistemas. Las métricas en la temática de ciberseguridad pueden clasificarse de la siguiente manera:
 
     .bg_slyder.p-5
       SlyderA(tipo="b")
@@ -689,8 +689,8 @@
 
         .row.justify-content-around
           .col-lg-5
-            h4 Métricas de Software
-            p Las métricas que tienen como finalidad el software tienen una dependencia directa del ciclo de vida de la construcción de aplicaciones y la arquitectura, el diseño y el modelado del software. Las organizaciones deben documentar sus métricas en un formato estándar para asegurar la aplicación del modelo, adaptación, recopilación y presentación de informes.
+            h4 Métricas de <em>software</em>
+            p Las métricas que tienen como finalidad el <em>software</em> tienen una dependencia directa del ciclo de vida de la construcción de aplicaciones y la arquitectura, el diseño y el modelado del <em>software</em>. Las organizaciones deben documentar sus métricas en un formato estándar para asegurar la aplicación del modelo, adaptación, recopilación y presentación de informes.
             p Ver ejemplo de documentación de un indicador para prevenir código malicioso y el respectivo proceso de cálculo de su métrica asociada:
             a.anexo(:href="obtenerLink('downloads/Anexo16__DocumentacionTabla_Tabla15.pdf')" target="_blank")
               .anexo__icono

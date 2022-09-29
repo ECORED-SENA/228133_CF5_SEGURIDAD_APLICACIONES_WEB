@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1(data-aos="fade-right") Ejecución del Plan Estratégico de la Seguridad en Aplicaciones Web
+      h1(data-aos="fade-right") Ejecución del Plan Estratégico de la Seguridad en Aplicaciones <em>Web</em>
 
     p La última fase del plan estratégico de la seguridad consiste en su ejecución. Para ello se tiene los siguientes artefactos de entrada, salida y las actividades en esta fase:
 
@@ -17,10 +17,10 @@
             ul.lista-ul--color.mb-4
               li.ms-2
                 i.fas.fa-check-circle
-                | Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones web.
+                p.m-0 Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones <em>web</em>.
               li.ms-2
                 i.fas.fa-check-circle
-                | Objetivos del plan estratégico de seguridad en aplicaciones web.
+                p.m-0 Objetivos del plan estratégico de seguridad en aplicaciones <em>web</em>.
               li.ms-2
                 i.fas.fa-check-circle
                 | Meta establecida del nivel de verificación ASVS.
@@ -42,10 +42,10 @@
                 | Estimar los recursos requeridos y los costos para la implementación por cada una de las acciones definidas en el plan estratégico.
               li.ms-2
                 i.fas.fa-check-circle
-                | Definir un programa continuo de sensibilización y capacitación en seguridad de aplicaciones web, que facilite al equipo de TI la adopción del plan estratégico de manera eficaz. 
+                p.m-0 Definir un programa continuo de sensibilización y capacitación en seguridad de aplicaciones <em>web</em>, que facilite al equipo de TI la adopción del plan estratégico de manera eficaz. 
               li.ms-2
                 i.fas.fa-check-circle
-                | Establecer planes de acción y futuros proyectos para tratar de minimizar la brecha y pensar en llegar a un estado superior de nivel de verificación en seguridad de aplicaciones web.
+                p.m-0 Establecer planes de acción y futuros proyectos para tratar de minimizar la brecha y pensar en llegar a un estado superior de nivel de verificación en seguridad de aplicaciones <em>web</em>.
               li.ms-2
                 i.fas.fa-check-circle
                 | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.
@@ -61,13 +61,13 @@
             ul.lista-ul--color.mb-4
               li.ms-2
                 i.fas.fa-check-circle
-                | Hoja de ruta correspondiente al plan de acción para la implementación de la seguridad en aplicaciones web, en la cual se priorizan las iniciativas que se deben llevar a cabo para cerrar la brecha y alcanzar el estado deseado.
+                p.m-0 Hoja de ruta correspondiente al plan de acción para la implementación de la seguridad en aplicaciones <em>web</em>, en la cual se priorizan las iniciativas que se deben llevar a cabo para cerrar la brecha y alcanzar el estado deseado.
               li.ms-2
                 i.fas.fa-check-circle
                 | Plan de uso y apropiación de la Estrategia.
               li.ms-2
                 i.fas.fa-check-circle
-                | Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones web.
+                p.m-0 Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones <em>web</em>.
         
           .col-md-4
             figure
@@ -80,12 +80,12 @@
             img.img-t.m-auto(src='@/assets/curso/tema2/img33.svg', alt='')
         .col-lg-10(data-aos="fade-right")
           p.text-bold A recordar: 
-          p.m-0 Los indicadores <b>claves de rendimiento</b>, las <b>métricas</b>, los <b>niveles de verificación de ASVS</b> y los <b>requisitos de verificación detallada</b> para la seguridad en aplicaciones web, permiten construir un plan estratégico de seguridad que conduce a una organización a la apropiación y ejecución de una hoja de ruta en su intención de lograr que las aplicaciones que hacen parte de su ecosistema y el núcleo del funcionamiento del negocio que se encuentren en el nivel de verificación adecuado según los estándares recomendados por los marcos de trabajo mencionados en el OWASP y el ASVS para su sector dentro de la industria; permitiendo que estos sistemas puedan escalar en un futuro y responder ante los constantes cambios que presenta el software en el mundo actual.
+          p.m-0 Los indicadores <b>claves de rendimiento</b>, las <b>métricas</b>, los <b>niveles de verificación de ASVS</b> y los <b>requisitos de verificación detallada</b> para la seguridad en aplicaciones <em>web</em>, permiten construir un plan estratégico de seguridad que conduce a una organización a la apropiación y ejecución de una hoja de ruta en su intención de lograr que las aplicaciones que hacen parte de su ecosistema y el núcleo del funcionamiento del negocio que se encuentren en el nivel de verificación adecuado según los estándares recomendados por los marcos de trabajo mencionados en el OWASP y el ASVS para su sector dentro de la industria; permitiendo que estos sistemas puedan escalar en un futuro y responder ante los constantes cambios que presenta el <em>software</em> en el mundo actual.
 
     .row.justify-content-center.align-items-center
       .col-lg-9(data-aos="fade-right") 
-        p El plan estratégico propuesto será para las compañías una herramienta de gran utilidad para prevenir atacantes y vulnerabilidades asociadas a las aplicaciones web, gracias a que la implementación de este plan permitirá a los equipos de desarrollo tomar decisiones oportunas ante eventualidades y de esta forma perfeccionar gradualmente los mecanismos de seguridad y de control de los sistemas de las organizaciones.
-        p En el siguiente capítulo se proponen algunas herramientas que brindan al equipo de desarrollo opciones para el monitoreo automatizado de las aplicaciones en temas de seguridad web.
+        p El plan estratégico propuesto será para las compañías una herramienta de gran utilidad para prevenir atacantes y vulnerabilidades asociadas a las aplicaciones <em>web</em>, gracias a que la implementación de este plan permitirá a los equipos de desarrollo tomar decisiones oportunas ante eventualidades y de esta forma perfeccionar gradualmente los mecanismos de seguridad y de control de los sistemas de las organizaciones.
+        p En el siguiente capítulo se proponen algunas herramientas que brindan al equipo de desarrollo opciones para el monitoreo automatizado de las aplicaciones en temas de seguridad <em>web</em>.
       .col-lg-3(data-aos="fade-left") 
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img07.svg', alt='')
@@ -93,7 +93,7 @@
     Separador
 
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 3.1.	Herramientas de Monitoreo de Seguridad en Aplicaciones Web
+        h2 3.1.	Herramientas de Monitoreo de Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right") 
@@ -121,26 +121,26 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p.m-0 En este caso se debe tener presente que la industria software madura a un ritmo acelerado y en materia de seguridad en aplicaciones la diferencia entre pruebas manuales y asistidas por herramientas es significativamente mínima. Es por ello, que es importante aclarar que estas herramientas automatizadas simplemente se adaptan para realidades puntuales y no tienen la capacidad de cubrir todos los requerimientos que a día de hoy existen. 
+          p.m-0 En este caso se debe tener presente que la industria <em>software</em> madura a un ritmo acelerado y en materia de seguridad en aplicaciones la diferencia entre pruebas manuales y asistidas por herramientas es significativamente mínima. Es por ello, que es importante aclarar que estas herramientas automatizadas simplemente se adaptan para realidades puntuales y no tienen la capacidad de cubrir todos los requerimientos que a día de hoy existen. 
 
     p A continuación se presentan algunos proyectos de OWASP que utilizan ASVS y proveen una herramienta para los equipos de desarrollo:
             
     Separador
 
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
-        h2 3.2.	El marco de conocimiento de seguridad (Security Knowledge Framework)
+        h2 3.2.	El marco de conocimiento de seguridad <em>(Security Knowledge Framework)</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right") 
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img10.svg', alt='')
       .col-lg-9(data-aos="fade-left") 
-        p La experiencia de la comunidad de OWASP permite identificar que el nivel de seguridad en las aplicaciones web no es significativamente alto para garantizar tranquilidad a las organizaciones. Esto debido a que muchos equipos de desarrollo no dimensionan el riesgo y las vulnerabilidades que pueden ser explotados por los piratas informáticos. Razón por la cual, se decantan por desarrollar un framework utilizando ASVS como guía para crear un sistema que sirva como hoja de ruta desde el primer paso para el desarrollo de aplicaciones seguras.  
+        p La experiencia de la comunidad de OWASP permite identificar que el nivel de seguridad en las aplicaciones <em>web</em> no es significativamente alto para garantizar tranquilidad a las organizaciones. Esto debido a que muchos equipos de desarrollo no dimensionan el riesgo y las vulnerabilidades que pueden ser explotados por los piratas informáticos. Razón por la cual, se decantan por desarrollar un <em>framework</em> utilizando ASVS como guía para crear un sistema que sirva como hoja de ruta desde el primer paso para el desarrollo de aplicaciones seguras.  
 
     .bg_1.p-4
       .row.justify-content-center.align-items-center
         .col-lg-8(data-aos="fade-right")
-          p.m-0 El <b>OWASP-SKF</b> es una aplicación web de código abierto escrita en el lenguaje de programación <b><em>python</em></b> usando el framework <b><em>Flask</em></b> que le proporciona a los desarrolladores de software una potente herramienta para que aprendan los principios de codificación segura en múltiples lenguajes de programación; entrenandolos en la escritura de código seguro desde la concepción, diseño e implementación de un sistema. La premisa es plantar la semilla de la seguridad en el desarrollador desde el diseño hasta la última etapa del ciclo de vida, a través de una serie de listas de verificación como por ejemplo <b>OWASP- ASVS, OWASP-MASVS</b> y la ejecución de laboratorios y prácticas que permiten explorar los niveles de verificación de seguridad <em>(<b>Security Knowledge Framework, 2022</b>)</em>.
+          p.m-0 El <b>OWASP-SKF</b> es una aplicación <em>web</em> de código abierto escrita en el lenguaje de programación <b><em>python</em></b> usando el <em>framework</em> <b><em>Flask</em></b> que le proporciona a los desarrolladores de <em>software</em> una potente herramienta para que aprendan los principios de codificación segura en múltiples lenguajes de programación; entrenandolos en la escritura de código seguro desde la concepción, diseño e implementación de un sistema. La premisa es plantar la semilla de la seguridad en el desarrollador desde el diseño hasta la última etapa del ciclo de vida, a través de una serie de listas de verificación como por ejemplo <b>OWASP- ASVS, OWASP-MASVS</b> y la ejecución de laboratorios y prácticas que permiten explorar los niveles de verificación de seguridad <em>(<b>Security Knowledge <em>Framework</em>, 2022</b>)</em>.
         .col-lg-3(data-aos="fade-left")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema3/img11.svg', alt='')
@@ -157,8 +157,8 @@
       .col-auto(data-aos="fade-down") 
         .verticalLine.d-none.d-lg-block   
       .col-lg-8(data-aos="fade-left") 
-        p ZAP es un herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones web. La aplicación actúa como un proxy ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re-enviarlo al destino. 
-        p Además ofrecen la opción de escaneo automatizado para una gran variedad de niveles de verificación ASVS y contiene otras herramientas para encontrar vulnerabilidades de seguridad manualmente. Esta aplicación ofrece al público versiones para los distintos sistemas operativos y también se puede usar a través de docker; otras opciones adicionales y complementos son posible descargarlos gratuitamente desde el <b>ZAP Marketplace.</b> Por último, la herramienta permite a los desarrolladores usarla como aplicación independiente o como un proceso que corre en background en el sistema operativo. (OWASP Zed Attack Proxy, 2022).
+        p ZAP es un herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones <em>web</em>. La aplicación actúa como un proxy ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re-enviarlo al destino. 
+        p Además ofrecen la opción de escaneo automatizado para una gran variedad de niveles de verificación ASVS y contiene otras herramientas para encontrar vulnerabilidades de seguridad manualmente. Esta aplicación ofrece al público versiones para los distintos sistemas operativos y también se puede usar a través de <em>docker</em>; otras opciones adicionales y complementos son posible descargarlos gratuitamente desde el <b>ZAP <em>Marketplace</em>.</b> Por último, la herramienta permite a los desarrolladores usarla como aplicación independiente o como un proceso que corre en <em>background</em> en el sistema operativo. (OWASP <em>Zed Attack Proxy</em>, 2022).
 
     .bg_15.p-4
       .row.justify-content-center.align-items-center
@@ -175,8 +175,8 @@
 
     .row.justify-content-center.mb-4
       .col-lg-8(data-aos="fade-right") 
-        p Este proyecto de OWASP consiste en la exposición de una aplicación web moderna y sofisticadam que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad software en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
-        p <b>Juice Shop</b> contiene todas las vulnerabilidades del <b>OWASP Top Ten,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones web en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
+        p Este proyecto de OWASP consiste en la exposición de una aplicación <em>web</em> moderna y sofisticadam que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad <em>software</em> en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
+        p <b>Juice Shop</b> contiene todas las vulnerabilidades del <b>OWASP Top Ten,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones <em>web</em> en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
       .col-auto(data-aos="fade-down") 
         .verticalLine.d-none.d-lg-block      
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left") 
@@ -189,7 +189,7 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p.m-0 Como se mencionó anteriormente esta herramienta le puede ayudar a los expertos en el área de seguridad y a los equipos de software como aplicación para adiestrarse y comprobar qué tan bien sus herramientas se adaptan a las interfaces de aplicaciones con gran cantidad de código <b>JavaScript y API REST.</b> (OWASP Juice Shop 2022).
+          p.m-0 Como se mencionó anteriormente esta herramienta le puede ayudar a los expertos en el área de seguridad y a los equipos de <em>software</em> como aplicación para adiestrarse y comprobar qué tan bien sus herramientas se adaptan a las interfaces de aplicaciones con gran cantidad de código <b>JavaScript y API REST.</b> (OWASP Juice Shop 2022).
 
     .row.mb-4(data-aos="fade-right")
       .col-lg-4.col-xl-5.col-xxl-4
@@ -208,7 +208,7 @@
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
         .col-lg-10(data-aos="fade-right")
-          p.m-0 Es importante tener presente que en el mercado existe una gran variedad de estas tanto libres y gratuitas como pagadas y de terceros; todas con características especiales que se adaptan a las necesidades de los expertos y las condiciones de las vulnerabilidades a medir dentro de las aplicaciones web.
+          p.m-0 Es importante tener presente que en el mercado existe una gran variedad de estas tanto libres y gratuitas como pagadas y de terceros; todas con características especiales que se adaptan a las necesidades de los expertos y las condiciones de las vulnerabilidades a medir dentro de las aplicaciones <em>web</em>.
 
     separador
 
@@ -220,7 +220,7 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img14.svg', alt='')
       .col-lg-9(data-aos="fade-left") 
-        p Actualmente es casi imposible para la sociedad pensar en su día a día sin la conexión al internet. La red mundial creció en las últimas décadas a un ritmo increíblemente rápido, lo que produjo un aumento sustancial en el tráfico de datos e información en la red, proveniente en gran medida de los servicios de transmisión, las redes sociales y las aplicaciones web en general (Pries, R, 2009).
+        p Actualmente es casi imposible para la sociedad pensar en su día a día sin la conexión al internet. La red mundial creció en las últimas décadas a un ritmo increíblemente rápido, lo que produjo un aumento sustancial en el tráfico de datos e información en la red, proveniente en gran medida de los servicios de transmisión, las redes sociales y las aplicaciones <em>web</em> en general (Pries, R, 2009).
         p Con este panorama las redes deben soportar un aumento en el promedio de carga de tráfico y un cambio errático en los patrones de los datos. Por tanto, las organizaciones y sus equipos de desarrollo necesitan contar con una supervisión y análisis efectivo de todo el tránsito de datos de información; debido a que detectar eventos externos, cuellos de botella, patrones erráticos, actividades maliciosas y/o procesos poco usuales en la red, permite anticiparse de manera oportuna y efectiva a potenciales problemas cuando ocurren o antes de que sucedan. De modo que, los servicios y/o aplicaciones no presenten interrupciones, indisponibilidad, intermitencia o suspensión durante ráfagas o durante largos periodos de tiempo (Xinyu, X., S. Mishra, 2009).
 
     .bg_1.p-4
@@ -246,7 +246,7 @@
         .verticalLine2.d-none.d-lg-block   
       .col-lg-8(data-aos="fade-left") 
         p Este proyecto inició su desarrollo en el año 2007 y continúa aún en vigencia exhibiendo una librería de información amplia y con múltiples protocolos de red, permitiendo su ejecución en diferentes sistemas operativos nativos, tales como linux, MacOs o Windows (Dabir, A., A. Matrawy, 2007). 
-        p Wireshark captura todos los paquetes del flujo de la red para luego exponerlos completamente en una interfaz gráfica de usuario con metainformación de cada dato analizado, brindándole a los administradores la oportunidad de identificar qué equipo o dispositivo está tratando de interactuar con otro, ofreciendo, además, corroborar si un paquete tiene una estructura correcta o no (Shaoqiang, W., X. DongSheng, y Y. ShiLiang, 2010). 
+        p <em>Wireshark</em> captura todos los paquetes del flujo de la red para luego exponerlos completamente en una interfaz gráfica de usuario con metainformación de cada dato analizado, brindándole a los administradores la oportunidad de identificar qué equipo o dispositivo está tratando de interactuar con otro, ofreciendo, además, corroborar si un paquete tiene una estructura correcta o no (Shaoqiang, W., X. DongSheng, y Y. ShiLiang, 2010). 
 
     .bg_16.p-5
       .row.justify-content-center.align-items-center.mb-4
@@ -264,7 +264,7 @@
         .col-lg-7(data-aos="fade-left") 
           .row
             .col-lg-12.m_left1
-              p.m_right1.mb-4 La herramienta en la interfaz provee una opción de filtrado por las distintas columnas que presenta directamente; como por ejemplo fuente, destino, protocolo, etc. Es importante detener la captura de paquetes, puesto que si no se realiza Wireshark seguirá analizando el tráfico en modo silencioso, incurriendo en consumo de memoria del sistema. 
+              p.m_right1.mb-4 La herramienta en la interfaz provee una opción de filtrado por las distintas columnas que presenta directamente; como por ejemplo fuente, destino, protocolo, etc. Es importante detener la captura de paquetes, puesto que si no se realiza <em>Wireshark</em> seguirá analizando el tráfico en modo silencioso, incurriendo en consumo de memoria del sistema. 
               p.m_right1 Si se hace clic en cualquier paquete, se mostrará información detallada sobre el paquete capturado en la mitad inferior de vista.
     
     .row.mb-4.m_top1(data-aos="fade-right")
@@ -297,15 +297,15 @@
         .row.justify-content-around
           .col-lg-5
             h4.mb-4 Librería <em>libcap</em> de NOTP
-            p NTOP usa la librería <em><b>libcap</b></em> que permite la captura de paquetes en distintos sistemas operativos, logrando que su código fuente sea el mismo haciendo que la herramienta sea portable. Además, el almacenamiento en búfer de los paquetes reduce la pérdida en caso de ráfagas de tráfico lo que brinda fiabilidad al momento de analizar los datos; los cuales son procesados una a la vez. La metainformación de los dispositivos se almacena en las tablas hash como datos de entrada y salida ordenados acorde con los protocolos de red; por último, NTOP presenta una gran cantidad de filtros almacenados y se aplican directamente al tráfico capturado.
+            p NTOP usa la librería <em><b>libcap</b></em> que permite la captura de paquetes en distintos sistemas operativos, logrando que su código fuente sea el mismo haciendo que la herramienta sea portable. Además, el almacenamiento en <em>búfer</em> de los paquetes reduce la pérdida en caso de ráfagas de tráfico lo que brinda fiabilidad al momento de analizar los datos; los cuales son procesados una a la vez. La metainformación de los dispositivos se almacena en las tablas <em>hash</em> como datos de entrada y salida ordenados acorde con los protocolos de red; por último, NTOP presenta una gran cantidad de filtros almacenados y se aplican directamente al tráfico capturado.
           .col-lg-6
             figure.mb-4
               img.img-t.mx-auto(src='@/assets/curso/tema3/img23.png', alt='AvatarTop')
 
         .row.justify-content-around
           .col-lg-5
-            h4.mb-4 Lista de <em>host</em> detectados por el software
-            p Esta imagen muestra la lista de <em><b>host</b></em> detectados por el software, los cuales son reconocidos cada vez que reciben tráfico proveniente de algún otro dispositivo. 
+            h4.mb-4 Lista de <em>host</em> detectados por el <em>software</em>
+            p Esta imagen muestra la lista de <em><b>host</b></em> detectados por el <em>software</em>, los cuales son reconocidos cada vez que reciben tráfico proveniente de algún otro dispositivo. 
             p NTOP tiene la capacidad de decodificar los paquetes HTTP, por lo que logrará identificar el sistema operativo del servidor en el cual se está ejecutando. Además es posible apreciar el desglose del tráfico en términos de datos entrantes/salientes y la aplicación proporciona la descarga de un objeto JSON con estos datos, para que se pueda manipular o almacenar en una base de datos.
 
           .col-lg-6
@@ -371,9 +371,9 @@
           img.img-t.mx-auto(src='@/assets/curso/tema3/img28.png')
 
     .row.mb-4(data-aos="fade-right")
-      .col-lg-3.col-xl-4.col-xxl-3
+      .col-lg-4.col-xl-5.col-xxl-4
         .bg_2.p-2
-          p.text-bold.m-0.ms-3 Paessler Router Traffic Grapher (PRTG)
+          p.text-bold.m-0.ms-3 <em>Paessler Router Traffic Grapher</em> (PRTG)
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
@@ -392,16 +392,16 @@
           p.m-0 PRTG posee más de 200 tipos de sensores para todos los servicios de red comunes, incluidos HTTP, SMTP/POP3 y FTP; admitiendo diferentes protocolos de red para la recolección de la información, tales como: SNMP y WMI, Packet Sniffing, NetFlow, IPFIX, JFlow y SFlow. A continuación, se podrá conocer las características de esta herramienta: 
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").color3
-      .row.justify-content-center(titulo="Interfaz de usuario accedida desde la web")
+      .row.justify-content-center(titulo="Interfaz de usuario accedida desde la <em>web</em>")
         .col-md-8.mb-4.mb-md-0
-          p En la imagen se precisa la interfaz de usuario accedida desde la web con gráficos de datos en tiempo real; esta interfaz es alimentada por los sensores HTTP que constantemente monitorean el tiempo de respuesta, sino hay respuesta o se recibe un estado 404, dicho sensor entra en estado de inactividad. La herramienta presenta los bytes de entrada, el tiempo de descarga, la velocidad y el tiempo del primer paquete entrante para cada uno de los sensores; con lo cual, el administrador puede establecer ciertos parámetros a modo de umbral que disparan las alarmas previstas. La herramienta presenta al usuario la posibilidad de descargar informes detallados en formato HTML o en PDF acorde a los parámetros seleccionados.
+          p En la imagen se precisa la interfaz de usuario accedida desde la <em>web</em> con gráficos de datos en tiempo real; esta interfaz es alimentada por los sensores HTTP que constantemente monitorean el tiempo de respuesta, sino hay respuesta o se recibe un estado 404, dicho sensor entra en estado de inactividad. La herramienta presenta los <em>bytes</em> de entrada, el tiempo de descarga, la velocidad y el tiempo del primer paquete entrante para cada uno de los sensores; con lo cual, el administrador puede establecer ciertos parámetros a modo de umbral que disparan las alarmas previstas. La herramienta presenta al usuario la posibilidad de descargar informes detallados en formato HTML o en PDF acorde a los parámetros seleccionados.
         .col-md-3
           figure
             img.img-t.m-auto(src='@/assets/curso/tema3/img31.png', alt='Texto que describa la imagen')
       
       .row.justify-content-center(titulo="Sensores a partir de transacciones")
         .col-md-8.mb-4.mb-md-0
-          p Esta imagen presenta algunos de los sensores que ofrece la herramienta permitiendo a los administradores de la red simular una transacción completa en su aplicación web mediante una serie de hasta 10 enlaces que ayudan a comprobar la accesibilidad y el contenido específico de cada una de estas páginas. PRTG ofrece a los usuarios analizar el flujo completo de una aplicación ejecutada en un servidor incluyendo servicios específicos como: monitoreo pasivo de sensores, rendimiento y tiempo de conexión TCP entre otros (PRTG, 2022).
+          p Esta imagen presenta algunos de los sensores que ofrece la herramienta permitiendo a los administradores de la red simular una transacción completa en su aplicación <em>web</em> mediante una serie de hasta 10 enlaces que ayudan a comprobar la accesibilidad y el contenido específico de cada una de estas páginas. PRTG ofrece a los usuarios analizar el flujo completo de una aplicación ejecutada en un servidor incluyendo servicios específicos como: monitoreo pasivo de sensores, rendimiento y tiempo de conexión TCP entre otros (PRTG, 2022).
         .col-md-3
           figure
             img.img-t.m-auto(src='@/assets/curso/tema3/img30.png', alt='Texto que describa la imagen')

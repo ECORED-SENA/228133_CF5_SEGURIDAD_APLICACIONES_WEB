@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones Web',
+      'Artefactos de seguridad para el monitoreo de seguridad orientada a aplicaciones <em>Web</em>',
     descripcionCurso:
-      'En esta última década el avance tecnológico impulsó a las empresas a trasladar buena parte de sus actividades y servicios hacia el mundo digital por medio de la sistematización de sus procesos a través de la creación de aplicaciones web. Sin embargo, pese a las ventajas adquiridas, también se contraen sus principales desventajas ligadas a los ataques cibernéticos, virus y demás afectaciones posibles del mundo software. <br> Es por ello, que el área dedicada a la seguridad web se ha convertido en uno de los temas de mayor interés para los expertos y profesionales de las tecnologías alrededor del planeta. Dentro de esta temática, un proceso importante radica en la detección temprana de vulnerabilidades por monitoreo o sondeo de aplicaciones, tema que será abordado a continuación.',
+      'En esta última década el avance tecnológico impulsó a las empresas a trasladar buena parte de sus actividades y servicios hacia el mundo digital por medio de la sistematización de sus procesos a través de la creación de aplicaciones <em>web</em>. Sin embargo, pese a las ventajas adquiridas, también se contraen sus principales desventajas ligadas a los ataques cibernéticos, virus y demás afectaciones posibles del mundo <em>software</em>. <br> Es por ello, que el área dedicada a la seguridad <em>web</em> se ha convertido en uno de los temas de mayor interés para los expertos y profesionales de las tecnologías alrededor del planeta. Dentro de esta temática, un proceso importante radica en la detección temprana de vulnerabilidades por monitoreo o sondeo de aplicaciones, tema que será abordado a continuación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -219,7 +219,7 @@ export default {
     {
       termino: 'Ataques Oportunistas',
       significado:
-        'Es un tipo de ataque a un sistema software que aprovecha algún punto vulnerable que no ha sido identificado previamente.',
+        'Es un tipo de ataque a un sistema <em>software</em> que aprovecha algún punto vulnerable que no ha sido identificado previamente.',
     },
     {
       termino: 'Bearer Token',
@@ -260,7 +260,7 @@ export default {
     },
     {
       referencia:
-        'G. V. Ríos, John A. Bohada e I. A. Delgado, “Gestión de seguridad de la información en las organizaciones”, en Investigación e Innovación en Ingeniería del Software. Medellín: Tecnológico de Antioquia, vol. 2, 2018, pp. 111-121.',
+        'G. V. Ríos, John A. Bohada e I. A. Delgado, “Gestión de seguridad de la información en las organizaciones”, en Investigación e Innovación en Ingeniería del <em>Software</em>. Medellín: Tecnológico de Antioquia, vol. 2, 2018, pp. 111-121.',
       link: '',
     },
     {
