@@ -692,7 +692,7 @@
             h4 Métricas de <em>software</em>
             p Las métricas que tienen como finalidad el <em>software</em> tienen una dependencia directa del ciclo de vida de la construcción de aplicaciones y la arquitectura, el diseño y el modelado del <em>software</em>. Las organizaciones deben documentar sus métricas en un formato estándar para asegurar la aplicación del modelo, adaptación, recopilación y presentación de informes.
             p Ver ejemplo de documentación de un indicador para prevenir código malicioso y el respectivo proceso de cálculo de su métrica asociada:
-            a.anexo(:href="obtenerLink('downloads/Anexo16__DocumentacionTabla_Tabla15.pdf')" target="_blank")
+            a.anexo(:href="obtenerLink('downloads/Anexo_16_Documentaciontabla_Tabla15.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
