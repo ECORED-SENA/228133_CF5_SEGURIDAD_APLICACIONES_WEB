@@ -603,61 +603,61 @@
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
-        img.img102.m-auto(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.m_left5
+        img.img102(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 Dependencia del proceso
-        .bg_12.p-4.m_left5
+        .bg_12.p-4
             .row.justify-content-lg-center
               .col-12.col-lg-11
                 p Estas deben ser derivadas específicamente del resultado del proceso para garantizar que tengan un impacto significativo y sean fácilmente evaluables.
       
       .tarjeta-avatar
         img.img102(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido.m_left5
+        .tarjeta.color-acento-contenido
           .row.justify-content-center.p-4
             .col-lg-8
               .bg_8.p-2
                 h4.text-center.m-0 Confiable
-        .bg_13.p-4.m_left5
+        .bg_13.p-4
           .row.justify-content-lg-center
             .col-12.col-lg-11 
               p Si los datos que puede tomar la métrica no son precisos ni verificables, se dice que son aleatorios y arbitrarios, por tanto, no debería plantearse como una métrica a tener en cuenta.
 
       .tarjeta-avatar
         img.img102(src='@/assets/curso/tema2/img32.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.m_left5
+        .tarjeta.color-acento-botones
           .row.justify-content-center.p-4
             .col-lg-8
               .bg_8.p-2
                 h4.text-center.m-0 Cuantificable             
-        .bg_12.p-4.m_left5
+        .bg_12.p-4
           .row.justify-content-lg-center
             .col-12.col-lg-11 
               p Estas deben ser concretas y cuantificables, con una facilidad para expresarse en unidades relevantes y nunca deben ser ponderadas en conceptos como “bueno” o “bonito”, etc.
 
       .tarjeta-avatar
         img.img117(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido.m_left5
+        .tarjeta.color-acento-contenido
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 Alineación a los objetivos              
-        .bg_13.p-4.m_left5
+        .bg_13.p-4
           .row.justify-content-lg-center
             .col-12.col-lg-11 
               p La información que proporcione una métrica debe apoyar el cumplimiento de los objetivos de la organización.
             
       .tarjeta-avatar
         img.img107(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones.m_left5
+        .tarjeta.color-acento-botones
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 En curso y comparable 
-        .bg_12.p-4.m_left5
+        .bg_12.p-4
           .row.justify-content-lg-center
             .col-12.col-lg-11 
               p La métrica debe proporcionar un valor que permita su comparación en función del tiempo y no en indicadores de rendimiento de una sola ocasión.
