@@ -20,7 +20,7 @@
 
     Separador
 
-    #t_2_1.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.1 Identificación del estado actual de la Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.align-items-center.mb-5
@@ -114,10 +114,10 @@
     p.mb-5 A continuación se profundiza en qué consiste cada nivel:
 
     .row.justify-content-center.mb-5
-      .col-md-6.mb-4.mb-lg-0
+      .col-md-5.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img.img-t.mx-auto(src='@/assets/curso/tema2/img08.svg')
-      .col-md-6.mb-5.mb-md-0(data-aos="fade-left")
+      .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           p.mt-3(numero="1" titulo="Nivel 1 (Oportunista)") Para una organización el nivel oportunista es muy apropiado si tiene sistemas donde la información capturada requiere de un nivel bajo de confiabilidad e integridad donde la falta o pérdida de algunos de estos datos no impacte inminentemente el proceso o flujo de la aplicación.<br><br> Este nivel proporciona a la gerencia un análisis rápido al ecosistema de aplicaciones que posean o les permite elaborar una lista de requerimientos en seguridad de aplicaciones que hacen parte de un plan estratégico de seguridad realizado en fases. 
           
@@ -146,10 +146,10 @@
 
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.2 Definición de los objetivos de la Seguridad en Aplicaciones <em>Web</em>
 
-    .row.justify-content-center.mb-0.mb-lg-4
+    .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img10.svg')
@@ -210,10 +210,10 @@
 
     Separador
 
-    #t_2_3.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.3 Determinación del estado deseado de la Seguridad en Aplicaciones <em>Web</em>
 
-    .row.justify-content-center.mb-0.mb-lg-4
+    .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img11.svg')
@@ -266,10 +266,10 @@
 
     Separador
 
-    #t_2_4.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.4 Definición de los Indicadores en Aplicaciones <em>Web</em>
 
-    .row.justify-content-center.mb-0.mb-lg-4
+    .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img16.svg')
@@ -306,9 +306,9 @@
                 | Evaluar los indicadores y métricas existentes contra la lista de valor agregado e identificar las falencias, lagunas y hallazgos.
 
       
-      .row.justify-content-center(titulo="Artefactos de Salida")
+      .row.justify-content-center.align-items-center(titulo="Artefactos de Salida")
         .col-md-7.mb-4.mb-md-0
-          ul.lista-ul.mb-4
+          ul.lista-ul.ms-3
             li
               i.fas.fa-check-circle
               | Análisis de brechas encontradas.
@@ -318,25 +318,27 @@
             li
               i.fas.fa-check-circle
               p.m-0 Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones <em>web</em>.
-           
-          h3 Actividades
-          ul.lista-ul
-            li
-              i.fas.fa-check-circle
-              p.m-0 Realizar pruebas <b><em>benchmark</em></b> al sistema para analizar las brechas en materia de indicadores y métricas.
-            li
-              i.fas.fa-check-circle
-              | Desarrollar un diccionario de indicadores y métricas que detalle la definición y el cálculo de la misma.
-            li
-              i.fas.fa-check-circle
-              p.m-0 Validar y asegurar que los indicadores y métricas preliminares se alinean con el objetivo del plan estratégico de la seguridad en aplicaciones <em>web</em> para su posterior aprobación por todos los <b><em>stakeholders.</em></b>
-            li
-              i.fas.fa-check-circle
-              | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.
-
-        .col-md-4
+        .col-md-4.mb-4.mb-lg-0
           figure
             img.img-t.m-auto(src='@/assets/curso/tema2/img18.svg', alt='Texto que describa la imagen')
+           
+        .row.justify-content-center
+          .col-lg-11
+            h3 Actividades
+            ul.lista-ul
+              li
+                i.fas.fa-check-circle
+                p.m-0 Realizar pruebas <b><em>benchmark</em></b> al sistema para analizar las brechas en materia de indicadores y métricas.
+              li
+                i.fas.fa-check-circle
+                | Desarrollar un diccionario de indicadores y métricas que detalle la definición y el cálculo de la misma.
+              li
+                i.fas.fa-check-circle
+                p.m-0 Validar y asegurar que los indicadores y métricas preliminares se alinean con el objetivo del plan estratégico de la seguridad en aplicaciones <em>web</em> para su posterior aprobación por todos los <b><em>stakeholders.</em></b>
+              li
+                i.fas.fa-check-circle
+                | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.
+
 
     .row.justify-content-center.mb-5
       .col-md-5.mb-4.mb-lg-0
@@ -347,7 +349,7 @@
           p.mt-3(numero="1" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones <em>Web</em>") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación <em>web</em>, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
           
           .row(numero="2" titulo="Arquitectura, Diseño y Modelado de amenazas")
-            .col-11
+            .col-12.mt-2.mb-lg-0
               p  Se coloca al inicio de todos los requisitos por analizar debido al papel fundamental que juega el diseño, el modelado y la arquitectura para cualquier sistema <em>software</em>, puesto que, este define la estructuras que componen la aplicación y la forma como se comunican entre ellas, para tener la capacidad de satisfacer los atributos de calidad del sistema. Es por ello que para este elemento se debe asegurar que se cumplan estos requisitos:          
               a.anexo(:href="obtenerLink('downloads/Anexo3_LC_ArquitecturaDiseño_Tabla2.pdf')" target="_blank")
                 .anexo__icono
@@ -356,7 +358,7 @@
                   p Anexo3_LC_ArquitecturaDiseño_Tabla2
           
           .row(numero="3" titulo="Autenticación")
-            .col-11
+            .col-12
               p El siguiente requisito en ser verificado es el mecanismo de inicio y control del estado de la sesión de un usuario a través del método de autenticación. Este proceso es el punto de entrada a la aplicación en consecuencia asegurar este componente es la principal tarea del equipo de TI. Por este motivo, para la autenticación se debe controlar que: 
               a.anexo(:href="obtenerLink('downloads/Anexo4_LC_Autenticación_Tabla3.pdf')" target="_blank")
                 .anexo__icono
@@ -365,7 +367,7 @@
                   p Anexo4_LC_Autenticación_Tabla3
 
           .row(numero="4" titulo="Control de acceso")
-            .col-11
+            .col-12
               p Este requisito consiste en el mecanismo que autoriza el acceso y uso de los recursos acorde con los permisos del solicitante. Teniendo en cuenta esto, es obligatorio que se valide que:
               a.anexo(:href="obtenerLink('downloads/Anexo5_LC_ControlAcceso_Tabla4.pdf')" target="_blank")
                 .anexo__icono
@@ -374,7 +376,7 @@
                   p Anexo5_LC_ControlAcceso_Tabla4
           
           .row(numero="5" titulo="Manejo de entrada de datos maliciosos")
-            .col-11
+            .col-12
               p Otro requisito sensible en la seguridad de las aplicaciones <em>web</em> consiste en la validación de entrada de datos maliciosos al sistema provenientes de ataques oportunistas desde el mismo usuario de la aplicación. Esta debilidad permite la ejecución de distintos ataques al sistema de ficheros, ataques como inyección de intérprete, <em><b>cross-site scripting (XSS)</b></em>, ataques <em><b>locale/Unicode</b></em>, inyección de SQL y desbordamientos de búferes. Por lo cual es necesario validar que para este elemento se validan que:
               a.anexo(:href="obtenerLink('downloads/Anexo6_LC_ManejoEntradaDatosMaliciosos_Tabla5.pdf')" target="_blank")
                 .anexo__icono
@@ -386,7 +388,7 @@
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Criptografía en el almacenamiento")
-            .col-11
+            .col-12
               p Esta verificación hace referencia a la importancia del encriptamiento de los datos más sensible dentro de una aplicación; es por ello que el sistema debe asegurar que se cumplan con:
               a.anexo(:href="obtenerLink('downloads/Anexo7_LC_CriptografíaAlmacenamiento_Tabla6.pdf')" target="_blank")
                 .anexo__icono
@@ -395,7 +397,7 @@
                   p Anexo7_LC_CriptografíaAlmacenamiento_Tabla6
 
           .row(numero="2" titulo="Gestión y registro de errores")
-            .col-11
+            .col-12
               p La gestión y registro de errores en log, tiene como objetivo proporcionar un mecanismo reactivo de respuesta a incidentes para los usuarios, administradores y equipos de TI, creando registros de log bastante significativos para los desarrolladores proporcionando datos útiles y sin agregar ruido innecesario. Los datos almacenados en el log deben presentar una cobertura acorde a las reglamentaciones y leyes dispuestas por el país ante los temas de privacidad de la información o directivas similares y se debe garantizar que se gestiona de forma segura. Es por ello que la aplicación debe contar con:     
               a.anexo(:href="obtenerLink('downloads/Anexo8_LC_GestionRegistroErrores_Tabla7.pdf')" target="_blank")
                 .anexo__icono
@@ -404,7 +406,7 @@
                   p Anexo8_LC_GestionRegistroErrores_Tabla7  
           
           .row(numero="3" titulo="Protección de Datos")
-            .col-11
+            .col-12
               p Este requisito de verificación se centra en la confidencialidad, integridad y disponibilidad de los datos, teniendo presente que esto se aplica en un servidor de aplicaciones lo que permite asumir que posee protecciones confiables y suficientes. Sin embargo, un sistema debe comprender que todos los dispositivos de los usuarios pueden comprometer la seguridad de alguna forma en el proceso de transmisión de información, por lo que es responsabilidad de la aplicación que los datos persistidos en algún dispositivo esté cifrado y sea complicado o imposible obtenerlo, alterarlo o divulgarlo. A continuación, se identifican los por menores que debe cumplir en temas de protección de datos:          
               a.anexo(:href="obtenerLink('downloads/Anexo9_LC_ProteccionDatos_Tabla8.pdf')" target="_blank")
                 .anexo__icono
@@ -413,7 +415,7 @@
                   p Anexo9_LC_ProteccionDatos_Tabla8
 
           .row(numero="4" titulo="Seguridad de las Comunicaciones")
-            .col-11
+            .col-12
               p Para el elemento de seguridad de las comunicaciones es obligatorio que se cubran los requisitos siguientes:  
               a.anexo(:href="obtenerLink('downloads/Anexo10_LC_SeguridadComunicaciones_Tabla9.pdf')" target="_blank")
                 .anexo__icono
@@ -422,7 +424,7 @@
                   p Anexo10_LC_SeguridadComunicaciones_Tabla9     
           
           .row(numero="5" titulo="Configuración de seguridad HTTP")
-            .col-11
+            .col-12
               p La configuración de seguridad HTTP necesita asegurar lo siguiente: 
               a.anexo(:href="obtenerLink('downloads/Anexo11_LC_ConfiguracionSeguridad HTTP_Tabla10.pdf')" target="_blank")
                 .anexo__icono
@@ -442,7 +444,7 @@
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Controles Maliciosos")
-            .col-11
+            .col-12
               p El requisito de control malicioso es susceptible de no ser detectado con facilidad, puesto que debe ser revisado minuciosamente el código fuente por un experto en el tema de forma manual para detectar bombas lógicas alojadas en alguna línea indetectable a simple vista. Por ello, En este se deben satisfacer los elementos de alto nivel presentados a continuación:
               a.anexo(:href="obtenerLink('downloads/Anexo12_LC_ControlesMaliciosos_Tabla11.pdf')" target="_blank")
                 .anexo__icono
@@ -451,7 +453,7 @@
                   p Anexo12_LC_ControlesMaliciosos_Tabla11
           
           .row(numero="2" titulo="Lógica de negocios")
-            .col-11
+            .col-12
               p Para este requisito de verificación se necesita satisfacer las siguientes características:
               a.anexo(:href="obtenerLink('downloads/Anexo13_LC_LogicaNegocios_Tabla12.pdf')" target="_blank")
                 .anexo__icono
@@ -460,7 +462,7 @@
                   p Anexo13_LC_LogicaNegocios_Tabla12            
           
           .row(numero="3" titulo="Archivos y recursos")
-            .col-11
+            .col-12
               p Para los archivos y recursos se deben remediar los requisitos tales como:
               a.anexo(:href="obtenerLink('downloads/Anexo14_LC_Archivos y recursos_Tabla13.pdf')" target="_blank")
                 .anexo__icono
@@ -469,7 +471,7 @@
                   p Anexo14_LC_Archivos y recursos_Tabla13             
 
           .row(numero="4" titulo="Servicios <em>Web</em>")
-            .col-11
+            .col-12
               p Es necesario que la aplicación verifique que al utilizar servicios <em>web</em> REST o SOAP mantenga:
               a.anexo(:href="obtenerLink('downloads/Anexo15_LC_ServiciosWeb_Tabla14.pdf')" target="_blank")
                 .anexo__icono
@@ -477,12 +479,12 @@
                 .anexo__texto
                   p Anexo15_LC_ServiciosWeb_Tabla14
 
-    .bg_6.p-4
+    .bg_6.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-2(data-aos="fade-left")
+        .col-auto(data-aos="fade-left")
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
-        .col-lg-10(data-aos="fade-right")
+        .col-10.col-md-12.col-lg-10(data-aos="fade-right")
           p.m-0 A partir de los anteriores requisitos el equipo TI puede plantear la selección de ciertos KPI y métricas que luego serán validadas y aprobadas por los interesados; que le permitan posteriormente a la gerencia identificar si el plan estratégico de la seguridad en aplicaciones <em>web</em> ha impactado positivamente los procesos y los sistemas aportando a los objetivos del negocio.
 
     .row.mb-4(data-aos="fade-right")
@@ -506,7 +508,7 @@
             .col-lg-4
               img.img-t.mx-auto.mb-4(src='@/assets/curso/tema2/img23.svg')
             .row.justify-content-center
-              .col-lg-8
+              .col-lg-8.mb-4.mb-lg-0
                 .bg_8.p-2
                   h4.text-center.m-0 Métrica            
         .bg_10.p-4
@@ -594,79 +596,78 @@
 
     separador 
 
-    #t_2_5.titulo-segundo.color-acento-botones(data-aos="zoom-out-right")
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.5 Definición de los Indicadores en Aplicaciones <em>Web</em>
 
-    p.mb-5 Como se indicó anteriormente los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones <em>web</em>. Así, las características más sobresalientes de las métricas son:
+    p Como se indicó anteriormente los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones <em>web</em>. Así, las características más sobresalientes de las métricas son:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones
+        img.img102.m-auto(src='@/assets/curso/tema2/img30.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.m_left5
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 Dependencia del proceso
-        .bg_12.p-4
-            .row.justify-content-center
-              .col-lg-11 
+        .bg_12.p-4.m_left5
+            .row.justify-content-lg-center
+              .col-12.col-lg-11
                 p Estas deben ser derivadas específicamente del resultado del proceso para garantizar que tengan un impacto significativo y sean fácilmente evaluables.
       
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
+        img.img102(src='@/assets/curso/tema2/img31.svg' alt='AvatarTop')
+        .tarjeta.color-acento-contenido.m_left5
           .row.justify-content-center.p-4
             .col-lg-8
               .bg_8.p-2
                 h4.text-center.m-0 Confiable
-        .bg_13.p-4
-          .row.justify-content-center
-            .col-lg-11 
+        .bg_13.p-4.m_left5
+          .row.justify-content-lg-center
+            .col-12.col-lg-11 
               p Si los datos que puede tomar la métrica no son precisos ni verificables, se dice que son aleatorios y arbitrarios, por tanto, no debería plantearse como una métrica a tener en cuenta.
 
-
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema2/img32.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones
+        img.img102(src='@/assets/curso/tema2/img32.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.m_left5
           .row.justify-content-center.p-4
             .col-lg-8
               .bg_8.p-2
                 h4.text-center.m-0 Cuantificable             
-        .bg_12.p-4
-          .row.justify-content-center
-            .col-lg-11 
+        .bg_12.p-4.m_left5
+          .row.justify-content-lg-center
+            .col-12.col-lg-11 
               p Estas deben ser concretas y cuantificables, con una facilidad para expresarse en unidades relevantes y nunca deben ser ponderadas en conceptos como “bueno” o “bonito”, etc.
 
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
-        .tarjeta.color-acento-contenido
+        img.img117(src='@/assets/curso/tema2/img28.svg' alt='AvatarTop')
+        .tarjeta.color-acento-contenido.m_left5
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 Alineación a los objetivos              
-        .bg_13.p-4
-          .row.justify-content-center
-            .col-lg-11 
+        .bg_13.p-4.m_left5
+          .row.justify-content-lg-center
+            .col-12.col-lg-11 
               p La información que proporcione una métrica debe apoyar el cumplimiento de los objetivos de la organización.
             
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
-        .tarjeta.color-acento-botones
+        img.img107(src='@/assets/curso/tema2/img29.svg' alt='AvatarTop')
+        .tarjeta.color-acento-botones.m_left5
           .row.justify-content-center.p-4
             .col-lg-10.col-xl-12.col-xxl-10
               .bg_8.p-2
                 h4.text-center.m-0 En curso y comparable 
-        .bg_12.p-4
-          .row.justify-content-center
-            .col-lg-11 
+        .bg_12.p-4.m_left5
+          .row.justify-content-lg-center
+            .col-12.col-lg-11 
               p La métrica debe proporcionar un valor que permita su comparación en función del tiempo y no en indicadores de rendimiento de una sola ocasión.
 
-    .bg_1.p-4
+    .bg_1.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-2(data-aos="fade-left")
+        .col-auto.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema2/img33.svg', alt='')
-        .col-lg-10(data-aos="fade-right")
+        .col-10.col-md-12.col-lg-10(data-aos="fade-right")
           p.m-0 Si las métricas seleccionadas poseen estas características, permitirán a la corporación comprender de mejor forma los riesgos a los que se pueden enfrentar, las amenazas y problemas emergentes, identificar y aislar las debilidades y tener una evaluación más acertada del desempeño de los controles implementados en materia de seguridad en aplicaciones <em>web</em>; del mismo modo, se crearán oportunidades de mejora y actualización en procesos, herramientas y tecnologías en comparación a los actuales evidenciando el incremento y evolución de la cultura organizacional en materia de seguridad en sistemas. Las métricas en la temática de ciberseguridad pueden clasificarse de la siguiente manera:
 
     .bg_slyder.p-5

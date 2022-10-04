@@ -18,6 +18,11 @@
   100%
     transform: translateY(0px)
 
+.banner-principal .tarjeta
+  background-color: #0F1E52
+  background-size: cover  
+  background-position: 30%
+
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner-interno.svg")!important
   
@@ -32,27 +37,39 @@
     top: -3rem
     left: -48px
     width: calc( 100% + 6rem)
-    height: 139%
+    height: 75%
     background-image: url("../assets/curso/tema1/img01.svg")
     background-repeat: no-repeat
-    background-size: 100% auto  
+    background-size: cover 
+    @media (max-width: $bp-max-md)
+      height: 65% 
 
 .img-t
   width: auto
   height: auto 
 
+.img102
+  max-width: 102px
+  top: 40px!important
+.img107
+  max-width: 107px
+  top: 40px!important
+.img117
+  max-width: 117px
+  top: 40px!important
+
 .bg_1
   background-color: #E8E8E8
-  width: 108%
-  margin: 4% -4%
+  margin-inline: -3.2rem !important
+  background-size: cover
 
 .bg_2
   background-color: #A6E6CA
 
 .bg_3
   background-color: #E5FDF3
-  width: 108%
-  margin: 4% -4%
+  margin-inline: -3.2rem !important
+  background-size: cover
 
 .bloque-texto-g.color-secundario 
     background-color: #FFF4D6
@@ -99,8 +116,8 @@
 
 .bg_6
   background-color: #FFF4D6
-  width: 108%
-  margin: 4% -4%
+  margin-inline: -3.2rem !important
+  background-size: cover
 
 .bg_7
   background-color: #294DDC
@@ -125,10 +142,12 @@
 .bg_12
   background-color: #FFF4D6
   height: 210px
+  width: 100%
 
 .bg_13
   background-color: #C7EDE0
   height: 210px
+  width: 100%
 
 .bg_slyder
   background-color: #E5FDF3
@@ -196,8 +215,8 @@
 
 .bg_15
   background-color: #F2F5FF
-  width: 108%
-  margin: 4% -4%
+  margin-inline: -3.2rem !important
+  background-size: cover
 
 .bg_16
   position: relative
@@ -252,10 +271,21 @@
 .m_left3
   margin-left: 0%
   @media (max-width: $bp-max-md)
+    margin-left: 28%
+  @media (max-width: $bp-max-xs)
     margin-left: 14%
 
 .m_left4
   margin-left: -28%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-left: -22%
+
+.m_left5
+  margin-left: 0%
+  @media (max-width: $bp-max-md)
+    margin-left: -19% 
+  @media (max-width: $bp-max-xs)
+    margin-left: -17% 
 
 .m_bottom1
   margin-bottom: 11%
@@ -272,11 +302,23 @@
   line-height: 2
   @media (max-width: $bp-max-md)
     margin-right: 8%
+  
+.m_right2
+  margin-right: -15%
+  line-height: 2
+  @media (max-width: $bp-max-md)
+    margin-right: -26%
+    margin-left: 36%
 
 .m_top1
   margin-top: 0%
   @media (max-width: $bp-max-md)
     margin-top: 20%
+  
+.tarjeta-avatar > img
+    left: 50%
+    @media (max-width: $bp-max-md)
+      left: 31%
 
 .bg_18
   position: relative
@@ -294,7 +336,12 @@
     background-repeat: no-repeat
     background-size: cover
     @media (max-width: $bp-max-md)
-      left: -4%  
+      left: -4% 
+      height: calc( 100% + 9rem)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      background-size: contain
+      top: -14%
+      height: calc( 100% + 6rem)
 
 .bg_19
   position: relative
@@ -313,6 +360,12 @@
     background-size: cover
     @media (max-width: $bp-max-md)
       left: -4%  
+      top: -22%
+      height: calc( 100% + 7rem)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      background-size: contain
+      top: -8%
+      height: calc( 100% + 3rem)
 
 .bg_20
   position: relative
@@ -330,8 +383,15 @@
     background-repeat: no-repeat
     background-size: cover
     @media (max-width: $bp-max-md)
-      left: -4%
-      width: 108%  
+      left: -4%  
+      top: -10%
+      height: calc( 100% + 4rem) 
+      width: calc( 100% + 2rem)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      background-size: cover
+      top: -8%
+      height: calc( 100% + 2rem)
+      width: calc( 100% + 1rem)
 
 .bg_21
   position: relative
@@ -350,6 +410,11 @@
     background-size: cover
     @media (max-width: $bp-max-md)
       left: -4%  
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      background-size: cover
+      top: -8%;
+      height: calc( 100% + 3rem)
+      width: calc( 100% + 2rem)
 
 .bg_22
   position: relative
@@ -368,4 +433,3 @@
     background-size: 100% 100% 
     @media (max-width: $bp-max-md)
       background-size: cover
-

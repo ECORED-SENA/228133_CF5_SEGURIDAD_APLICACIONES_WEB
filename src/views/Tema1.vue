@@ -17,7 +17,7 @@
             img.img-t(src='@/assets/curso/tema1/img02.png', alt='')
     
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-1(data-aos="fade-left")
+        .col-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema1/img03.svg', alt='')
         .col-lg-11(data-aos="fade-right")
@@ -32,28 +32,28 @@
           .bloque-texto-g__texto.p-4(data-aos="fade-left")
             p.mb-0 En (OWASP. Top Ten, 2022) es posible apreciar con mayor claridad las amenazas y vulnerabilidades más importantes a día de hoy para las organizaciones y sus aplicaciones <em>web</em>; a través del esfuerzo colaborativo global conocido como el <b><em>Proyecto Abierto de Seguridad en Aplicaciones <em>Web</em></em></b> (<b>OWASP, <em>Open Web Application Security Project</em></b>), que busca concientizar a los equipos de desarrollo y los gerentes de proyectos la importancia de proteger sus activos informáticos con la generación de procesos que estimen el nivel de seguridad de sus sistemas, de manera que sea posible tomar decisiones y medidas preventivas ante una ciberamenaza o una eventualidad.
 
-    .bg_1.p-4
+    .bg_1.p-4.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-2(data-aos="fade-left")
+        .col-auto(data-aos="fade-left")
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img05.svg', alt='')
-        .col-lg-10(data-aos="fade-right")
+        .col-10.col-md-12.col-lg-10(data-aos="fade-right")
           p.text-bold Es así como:
           p.m-0 En toda entidad las políticas e instrumentos de ciberseguridad son de carácter obligatorio y deben garantizar que se valoren los riesgos alineados con las tecnologías como amenazas reales a los procesos y servicios de la compañía, sin desestimar su impacto o sus consecuencias a corto, mediano y largo plazo para los objetivos trazados por la gerencia. Para ello, las organizaciones deben contar con procedimientos y personal especializado encargados de mitigar y reaccionar a las afectaciones que son producto de los riesgos en ciberseguridad.
 
     p.mb-4 El área de ciberseguridad, como eje transversal a la empresa debe crear o fortalecer los procesos de control y protección a todas las demás áreas de la organización, a fin de garantizar integridad, confidencialidad y la seguridad de su información y la de sus clientes. <b>(A. Pineda, John A. Bohada y M. L. Pineda, 2018).</b>
 
-    .row.mb-4(data-aos="fade-right")
-      .col-lg-4.col-xl-5.col-xxl-4
+    .row.mb-5(data-aos="fade-right")
+      .col-lg-5.col-xl-6.col-xxl-5
         .bg_2.p-2
           p.text-bold.m-0 Plan Estratégico de Seguridad en Aplicaciones <em>Web</em>
 
-    .bg_3.p-4
+    .bg_3.p-4.mb-4
       .row.justify-content-center.align-items-center
-        .col-lg-2(data-aos="fade-left")
+        .col-auto(data-aos="fade-left")
           figure
             img.img-t.mx-auto(src='@/assets/curso/tema1/img06.svg', alt='')
-        .col-lg-10(data-aos="fade-right")
+        .col-10.col-md-12.col-lg-10(data-aos="fade-right")
           span En 
           |
           span.text-bold.color1 (R. Rodriguez, H. Alberto, 2019) 
@@ -65,7 +65,7 @@
       .col-lg-11.ms-3.ms-lg-5.ps-0.ps-lg-4
         .bg_4.p-5
           .row.justify-content-center.align-items-center
-            .col-lg-6
+            .col-lg-6.mb-4.mb-lg-0
               span.text-bold El objetivo de un plan estratégico de seguridad en aplicaciones <em>web</em>,
               | 
               span estriba en la definición específica de una ruta de trabajo que le permita a la organización llegar a la obtención de unas métricas reales capaces de establecer el rendimiento de manera cuantitativa; con el objetivo de lograr que las aplicaciones <em>web</em> lleguen a un estado de madurez y nivel deseado en materia de seguridad.
