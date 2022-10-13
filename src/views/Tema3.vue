@@ -39,9 +39,6 @@
                 | Estimar los recursos requeridos y los costos para la implementación por cada una de las acciones definidas en el plan estratégico.
               li.ms-2
                 i.fas.fa-check-circle
-                | Estimar los recursos requeridos y los costos para la implementación por cada una de las acciones definidas en el plan estratégico.
-              li.ms-2
-                i.fas.fa-check-circle
                 p.m-0 Definir un programa continuo de sensibilización y capacitación en seguridad de aplicaciones <em>web</em>, que facilite al equipo de TI la adopción del plan estratégico de manera eficaz. 
               li.ms-2
                 i.fas.fa-check-circle
@@ -93,7 +90,7 @@
     Separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 3.1.	Herramientas de Monitoreo de Seguridad en Aplicaciones <em>Web</em>
+        h2 3.1 Herramientas de Monitoreo de Seguridad en Aplicaciones <em>Web</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right") 
@@ -103,7 +100,7 @@
         p En el capítulo anterior se introdujo el estándar de verificación en seguridad en aplicaciones ASVS, el cual puede convertirse para las organizaciones en una hoja de ruta para la verificación de sus sistemas en conjunto con los proyectos abiertos y sin restricciones aprovechándose de su documentación, su código fuente y el manejo de la autenticación al sistema, particularmente para los niveles de verificación estándar y avanzado.
         p En la gran mayoría de ejercicios de revisión de código y test de penetración todos los hallazgos presentados en el informe que recibe la dirección general se componen exclusivamente de defectos de seguridad; no obstante es necesario incluir cuál es el alcance de la verificación, el resumen detallado de los resultados del nivel de verificación anexando a éste las pruebas que se completaron, las pruebas exitosas y las fallidas, estableciendo además una posible solución a las erradas.
 
-    p Es por ello que las organizaciones promueven prácticas que mantengan la documentación asociada a las pruebas en formato electrónico, usando imágenes, videos, registros logs, o scripts entre otros. puesto que, esta serie de archivos sirven de hallazgos para los desarrolladores cuando tengan dudas en sus procesos. 
+    p Es por ello que las organizaciones promueven prácticas que mantengan la documentación asociada a las pruebas en formato electrónico, usando imágenes, videos, registros <em>logs</em>, o <em>scripts</em> entre otros, puesto que, esta serie de archivos sirven de hallazgos para los desarrolladores cuando tengan dudas en sus procesos. 
 
     .row.justify-content-center.mb-5.mb-lg-0(data-aos="fade-up-right") 
       .col-lg-11.ms-3.ms-lg-5.ps-0.ps-lg-3
@@ -128,7 +125,7 @@
     Separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 3.2.	El marco de conocimiento de seguridad <em>(Security Knowledge Framework)</em>
+        h2 3.2 El marco de conocimiento de seguridad <em>(Security Knowledge Framework)</em>
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right") 
@@ -140,7 +137,7 @@
     .bg_1.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-10.col-md-12.col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-          p.m-0 El <b>OWASP-SKF</b> es una aplicación <em>web</em> de código abierto escrita en el lenguaje de programación <b><em>python</em></b> usando el <em>framework</em> <b><em>Flask</em></b> que le proporciona a los desarrolladores de <em>software</em> una potente herramienta para que aprendan los principios de codificación segura en múltiples lenguajes de programación; entrenandolos en la escritura de código seguro desde la concepción, diseño e implementación de un sistema. La premisa es plantar la semilla de la seguridad en el desarrollador desde el diseño hasta la última etapa del ciclo de vida, a través de una serie de listas de verificación como por ejemplo <b>OWASP- ASVS, OWASP-MASVS</b> y la ejecución de laboratorios y prácticas que permiten explorar los niveles de verificación de seguridad <em>(<b>Security Knowledge <em>Framework</em>, 2022</b>)</em>.
+          p.m-0 El <b>OWASP-SKF</b> es una aplicación <em>web</em> de código abierto escrita en el lenguaje de programación <b><em>python</em></b> usando el <em>framework</em> <b><em>Flask</em></b> que le proporciona a los desarrolladores de <em>software</em> una potente herramienta para que aprendan los principios de codificación segura en múltiples lenguajes de programación; entrenándolos en la escritura de código seguro desde la concepción, diseño e implementación de un sistema. La premisa es plantar la semilla de la seguridad en el desarrollador desde el diseño hasta la última etapa del ciclo de vida, a través de una serie de listas de verificación como por ejemplo <b>OWASP- ASVS, OWASP-MASVS</b> y la ejecución de laboratorios y prácticas que permiten explorar los niveles de verificación de seguridad <em>(<b>Security Knowledge <em>Framework</em>, 2022</b>)</em>.
         .col-lg-3(data-aos="fade-left")
           figure
             img.img-t.m-auto(src='@/assets/curso/tema3/img11.svg', alt='')
@@ -157,7 +154,7 @@
       .col-auto(data-aos="fade-down") 
         .verticalLine.d-none.d-lg-block   
       .col-lg-8(data-aos="fade-left") 
-        p ZAP es un herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones <em>web</em>. La aplicación actúa como un proxy ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re-enviarlo al destino. 
+        p ZAP es una herramienta de código abierto de fácil uso, flexible, extensible y gratuita mantenida por el esfuerzo conjunto del OWASP, que permite realizar pruebas de penetración para aplicaciones <em>web</em>. La aplicación actúa como un proxy ubicándose entre el navegador y el sistema a testear para la búsqueda de vulnerabilidades; con el fin de interceptar e inspeccionar los mensajes enviados entre estos dos y con la disponibilidad de realizar cambios en el contenido de este y re-enviarlo al destino. 
         p Además ofrecen la opción de escaneo automatizado para una gran variedad de niveles de verificación ASVS y contiene otras herramientas para encontrar vulnerabilidades de seguridad manualmente. Esta aplicación ofrece al público versiones para los distintos sistemas operativos y también se puede usar a través de <em>docker</em>; otras opciones adicionales y complementos son posible descargarlos gratuitamente desde el <b>ZAP <em>Marketplace</em>.</b> Por último, la herramienta permite a los desarrolladores usarla como aplicación independiente o como un proceso que corre en <em>background</em> en el sistema operativo. (OWASP <em>Zed Attack Proxy</em>, 2022).
 
     .bg_15.p-4.mb-5
@@ -175,7 +172,7 @@
 
     .row.justify-content-between.mb-4
       .col-lg-8(data-aos="fade-right") 
-        p Este proyecto de OWASP consiste en la exposición de una aplicación <em>web</em> moderna y sofisticadam que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad <em>software</em> en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
+        p Este proyecto de OWASP consiste en la exposición de una aplicación <em>web</em> moderna y sofisticada que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad <em>software</em> en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
         p <b>Juice Shop</b> contiene todas las vulnerabilidades del <b>OWASP Top Ten,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones <em>web</em> en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
       .col-auto(data-aos="fade-down") 
         .verticalLine.d-none.d-lg-block      
@@ -213,7 +210,7 @@
     separador
 
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 3.3.	Medición de tráfico de red
+        h2 3.3 Medición de tráfico de red
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right") 

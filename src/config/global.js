@@ -34,7 +34,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Seguridad en Aplicaciones Web',
+        titulo: 'Seguridad en Aplicaciones <em>Web</em>',
         desarrolloContenidos: true,
       },
       {
@@ -42,40 +42,42 @@ export default {
         icono: 'far fa-file-alt',
         numero: '2',
         titulo:
-          'Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones Web',
+          'Fases para la adopción de un Plan Estratégico de Seguridad en Aplicaciones <em>Web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Identificación del estado actual de la Seguridad en Aplicaciones Web',
+              'Identificación del estado actual de la Seguridad en Aplicaciones <em>Web</em>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
-              'Definición de los objetivos de la Seguridad en Aplicaciones Web',
+              'Definición de los objetivos de la Seguridad en Aplicaciones <em>Web</em>',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
             titulo:
-              'Determinación del estado deseado de la Seguridad en Aplicaciones Web',
+              'Determinación del estado deseado de la Seguridad en Aplicaciones <em>Web</em>',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Definición de los Indicadores en Aplicaciones Web',
+            titulo:
+              'Definición de los Indicadores en Aplicaciones <em>Web</em>',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Definición de Métricas de la Seguridad',
+            titulo:
+              'Definición de Métricas de Seguridad en Aplicaciones <em>Web</em>',
             hash: 't_2_5',
           },
         ],
@@ -85,27 +87,27 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Ejecución del Plan Estratégico de la Seguridad en Aplicaciones Web',
+          'Ejecución del Plan Estratégico de la Seguridad en Aplicaciones <em>Web</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
-              'Herramientas de Monitoreo de Seguridad en Aplicaciones Web',
+              'Herramientas de Monitoreo de Seguridad en Aplicaciones <em>Web</em>',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
             titulo:
-              'El marco de conocimiento de seguridad (Security Knowledge Framework)',
+              'El marco de conocimiento de seguridad (<em>Security Knowledge Framework</em>)',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Medición de tráfico',
+            titulo: 'Medición de tráfico de red',
             hash: 't_3_3',
           },
         ],
@@ -154,7 +156,8 @@ export default {
   complementario: [
     {
       tema: 'Definición de Métricas de Seguridad en Aplicaciones Web',
-      referencia: 'OWASP Security Qualitative Metrics. (s/f). Owasp.Org.',
+      referencia:
+        '<em>OWASP Security Qualitative Metrics</em>. (s/f). Owasp.Org.',
       tipo: 'Página web',
       link:
         'https://owasp.org/www-project-security-qualitative-metrics/SECURITY-QUALITATIVE-METRICS',
@@ -163,7 +166,7 @@ export default {
       tema:
         'El marco de conocimiento de seguridad (Security Knowledge Framework)',
       referencia:
-        'wstg: The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services. (s/f).',
+        'wstg: <em>The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services</em>. (s/f).',
       tipo: 'Repositorio',
       link: 'https://github.com/OWASP/wstg',
     },
@@ -171,7 +174,7 @@ export default {
       tema:
         'El marco de conocimiento de seguridad (Security Knowledge Framework)',
       referencia:
-        'Pereira, C. P. T.-D. [DavidPereira]. (2021, marzo 4). Curso de Pentesting a Aplicaciones WEB (Video 1) OWASP Juice Shop. Youtube.',
+        'Pereira, C. P. T.-D. [DavidPereira]. (2021, marzo 4). Curso de <em>Pentesting</em> a Aplicaciones WEB (Video 1) OWASP <em>Juice Shop</em>. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6eAJ1dinee0&t=690s',
     },
@@ -179,7 +182,7 @@ export default {
       tema:
         'El marco de conocimiento de seguridad (Security Knowledge Framework)',
       referencia:
-        'Tech, T. [TaggartTech]. (2021, septiembre 8). #AttackOnTuesday | OWASP ZAP/Juice Shop. Youtube.',
+        'Tech, T. [TaggartTech]. (2021, septiembre 8). #AttackOnTuesday | OWASP ZAP/<em>Juice Shop</em>. Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=4CNWTkAbT4o&t=801s',
     },
@@ -434,7 +437,7 @@ export default {
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Revisión de guión audiovisual',
+        cargo: 'Revisión de guion audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {

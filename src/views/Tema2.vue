@@ -97,7 +97,7 @@
           img.img-t.mb-4(src="@/assets/curso/tema2/img05.svg")
           .bg_5.p-2.mb-4
             h4.text-white.m-0 Nivel 1 (Oportunista)
-          p.mb-0 El nivel base no distingue <em>software</em> puesto que sirve para todos los sistemas.
+          p.mb-0 El nivel base no distingue <em>software,</em> puesto que sirve para todos los sistemas.
       .col-12.col-md-6.col-lg-4.px-md-3.d-flex.content-tj-hover
         .tarjeta-hover-up.p-4.p-xl-5
           img.img-t.mb-4(src="@/assets/curso/tema2/img06.svg")
@@ -119,7 +119,7 @@
           img.img-t.mx-auto(src='@/assets/curso/tema2/img08.svg')
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p.mt-3(numero="1" titulo="Nivel 1 (Oportunista)") Para una organización el nivel oportunista es muy apropiado si tiene sistemas donde la información capturada requiere de un nivel bajo de confiabilidad e integridad donde la falta o pérdida de algunos de estos datos no impacte inminentemente el proceso o flujo de la aplicación.<br><br> Este nivel proporciona a la gerencia un análisis rápido al ecosistema de aplicaciones que posean o les permite elaborar una lista de requerimientos en seguridad de aplicaciones que hacen parte de un plan estratégico de seguridad realizado en fases. 
+          p.mt-3(numero="1" titulo="Nivel 1 (Oportunista)") Para una organización, el nivel oportunista es muy apropiado si tiene sistemas donde la información capturada requiere de un nivel bajo de confiabilidad e integridad, donde la falta o pérdida de algunos de estos datos no impacte inminentemente el proceso o flujo de la aplicación.<br><br> Este nivel proporciona a la gerencia un análisis rápido al ecosistema de aplicaciones que posean o les permite elaborar una lista de requerimientos en seguridad de aplicaciones que hacen parte de un plan estratégico de seguridad realizado en fases. 
           
           p.mt-3(numero="2" titulo="Nivel 2 (Estándar) ") El nivel dos del ASVS tiene como premisa asegurar que dentro de las organizaciones se conozcan y existan controles de seguridad en las aplicaciones ubicados en lugar correspondiente y con el mayor porcentaje de efectividad.<br><br> Las aplicaciones que deben estar a este nivel por lo general realizan transacciones comerciales entre organizaciones conocidas como <em><b>negocio a negocio (business-to-business, B2B)</b></em>, sistemas de gestión de información del área de la salud, aplicaciones que implementan operaciones sensibles para el negocio o mantienen otros activos sensibles de terceros.
           
@@ -135,14 +135,14 @@
     .row.justify-content-center.align-items-center
       .col-lg-8(data-aos="fade-left") 
         p No obstante, es claro que cada sector posee criterios únicos y bien diferenciados en cuanto a las amenazas y vulnerabilidades presentes, es común en todos los segmentos de la industria encontrar ataques oportunistas. En este tipo se busca cualquier sistema que se encuentre en un estado vulnerable para explotar sus debilidades de una manera rápida y sencilla. Por lo que el rango oportunista se recomienda para todas las aplicaciones y debe ser el punto base para manejar las amenazas más habituales de encontrar. A continuación, se identifican algunas recomendaciones para cada nivel en diferentes sectores de la industria:
-        a.anexo(:href="obtenerLink('downloads/Anexo2_EjemplosSectorIndustria_Tabla1.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('downloads/Anexo1_Ejemplosporsectordelaindustria_Tabla1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo2_EjemplosSectorIndustria_Tabla1
+            p.m-0 Ejemplos por sector de la industria
       .col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img09.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img09.png')
 
     Separador
 
@@ -152,7 +152,7 @@
     .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img10.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img10.svg')
       .col-lg-9.mb-5.mb-md-0(data-aos="fade-left")
         p La segunda fase en el plan estratégico consiste en definir y acordar el alcance a través de unos objetivos claros alineados a los objetivos de la organización. Puesto que, la compañía actúa como <em>stakeholder</em> buscando que el plan presentado satisfaga las necesidades establecidas por la gerencia y permitan mejorar sustancialmente sus procesos con un nivel de verificación superior en sus aplicaciones. En seguida se aprecian los artefactos de entrada, salida y las actividades en esta fase:
 
@@ -216,7 +216,7 @@
     .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img11.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img11.svg')
       .col-lg-9.mb-5.mb-md-0(data-aos="fade-left")
         p.mt-4 En esta fase del plan estratégico se establece el nivel de verificación al que se aspira llegar en cuanto a seguridad de las aplicaciones <em>web</em>. Teniendo presente las listas de chequeo recopiladas en el paso previo, los objetivos definidos plenamente por las partes interesadas, las limitaciones a las que se enfrenta la organización y el análisis del estado actual en materia de seguridad en aplicaciones <em>web</em>. A continuación, se presentan los siguientes artefactos de entrada, salida y las actividades en esta fase:
 
@@ -272,7 +272,7 @@
     .row.justify-content-center.mb-0.mb-md-4.mb-lg-4
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img16.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img16.svg')
       .col-lg-9.mb-5.mb-md-0(data-aos="fade-left")
         p.mt-4 Esta fase es vital en el plan estratégico de seguridad en aplicaciones <em>web</em> debido a que le proporciona a los interesados la manera correcta de cuantificar el rendimiento real del sistema después de realizar un plan estratégico de seguridad en aplicaciones <em>web</em>; permitiéndole a la gerencia un punto de referencia en la toma de decisiones, en las oportunidades de mejora o en el proceso de pivotar la dirección de los objetivos trazados por la corporación para lograr ventajas competitivas. 
         p Dentro de esta etapa se definen cuatro importantes actividades que al final permiten gestar un paquete de métricas para implementar. Para este paso se establecen los siguientes artefactos de entrada, salida y las actividades: 
@@ -300,7 +300,7 @@
                 | Recopilar las mejores prácticas de expertos en la temática. 
               li
                 i.fas.fa-check-circle
-                | Realizar mesas de trabajo que permitan obtener un lista de chequeo con los elementos que generen valor agregado al cliente de las aplicaciones.
+                | Realizar mesas de trabajo que permitan obtener una lista de chequeo con los elementos que generen valor agregado al cliente de las aplicaciones.
               li
                 i.fas.fa-check-circle
                 | Evaluar los indicadores y métricas existentes contra la lista de valor agregado e identificar las falencias, lagunas y hallazgos.
@@ -346,91 +346,91 @@
           img.img-t(src='@/assets/curso/tema2/img19.svg')
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p.mt-3(numero="1" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones <em>Web</em>") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación <em>web</em>, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
+          p.mt-3(numero="a" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones <em>Web</em>") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación <em>web</em>, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
           
-          .row(numero="2" titulo="Arquitectura, Diseño y Modelado de amenazas")
+          .row(numero="b" titulo="Arquitectura, Diseño y Modelado de amenazas")
             .col-12.mt-2.mb-lg-0
               p  Se coloca al inicio de todos los requisitos por analizar debido al papel fundamental que juega el diseño, el modelado y la arquitectura para cualquier sistema <em>software</em>, puesto que, este define la estructuras que componen la aplicación y la forma como se comunican entre ellas, para tener la capacidad de satisfacer los atributos de calidad del sistema. Es por ello que para este elemento se debe asegurar que se cumplan estos requisitos:          
-              a.anexo(:href="obtenerLink('downloads/Anexo3_LC_ArquitecturaDiseño_Tabla2.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo2_ListadeChequeoArquitecturaDisenoyModeladodeAmenazas_Tabla2.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo3_LC_ArquitecturaDiseño_Tabla2
+                  p.m-0 Lista de Chequeo: Arquitectura, Diseño y Modelado de Amenazas
           
-          .row(numero="3" titulo="Autenticación")
+          .row(numero="c" titulo="Autenticación")
             .col-12
               p El siguiente requisito en ser verificado es el mecanismo de inicio y control del estado de la sesión de un usuario a través del método de autenticación. Este proceso es el punto de entrada a la aplicación en consecuencia asegurar este componente es la principal tarea del equipo de TI. Por este motivo, para la autenticación se debe controlar que: 
-              a.anexo(:href="obtenerLink('downloads/Anexo4_LC_Autenticación_Tabla3.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo3_ListadeChequeoAutenticacion_Tabla3.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo4_LC_Autenticación_Tabla3
+                  p.m-0 Lista de Chequeo: Autenticación
 
-          .row(numero="4" titulo="Control de acceso")
+          .row(numero="d" titulo="Control de acceso")
             .col-12
               p Este requisito consiste en el mecanismo que autoriza el acceso y uso de los recursos acorde con los permisos del solicitante. Teniendo en cuenta esto, es obligatorio que se valide que:
-              a.anexo(:href="obtenerLink('downloads/Anexo5_LC_ControlAcceso_Tabla4.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo4_ListadeChequeoControldeAcceso_Tabla4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo5_LC_ControlAcceso_Tabla4
+                  p.m-0 Lista de Chequeo: Control de Acceso
           
-          .row(numero="5" titulo="Manejo de entrada de datos maliciosos")
+          .row(numero="e" titulo="Manejo de entrada de datos maliciosos")
             .col-12
               p Otro requisito sensible en la seguridad de las aplicaciones <em>web</em> consiste en la validación de entrada de datos maliciosos al sistema provenientes de ataques oportunistas desde el mismo usuario de la aplicación. Esta debilidad permite la ejecución de distintos ataques al sistema de ficheros, ataques como inyección de intérprete, <em><b>cross-site scripting (XSS)</b></em>, ataques <em><b>locale/Unicode</b></em>, inyección de SQL y desbordamientos de búferes. Por lo cual es necesario validar que para este elemento se validan que:
-              a.anexo(:href="obtenerLink('downloads/Anexo6_LC_ManejoEntradaDatosMaliciosos_Tabla5.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo5_ListadeChequeoManejodeEntradadeDatosMaliciosos_Tabla5.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo6_LC_ManejoEntradaDatosMaliciosos_Tabla5
+                  p.m-0 Lista de Chequeo: Manejo de entrada de datos maliciosos
 
     .row.justify-content-center.mb-5
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Criptografía en el almacenamiento")
+          .row(numero="f" titulo="Criptografía en el almacenamiento")
             .col-12
               p Esta verificación hace referencia a la importancia del encriptamiento de los datos más sensible dentro de una aplicación; es por ello que el sistema debe asegurar que se cumplan con:
-              a.anexo(:href="obtenerLink('downloads/Anexo7_LC_CriptografíaAlmacenamiento_Tabla6.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo6_ListadeChequeoCriptografiaenelAlmacenamiento_Tabla6.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo7_LC_CriptografíaAlmacenamiento_Tabla6
+                  p.m-0 Lista de Chequeo: Criptografía en el almacenamiento
 
-          .row(numero="2" titulo="Gestión y registro de errores")
+          .row(numero="g" titulo="Gestión y registro de errores")
             .col-12
               p La gestión y registro de errores en log, tiene como objetivo proporcionar un mecanismo reactivo de respuesta a incidentes para los usuarios, administradores y equipos de TI, creando registros de log bastante significativos para los desarrolladores proporcionando datos útiles y sin agregar ruido innecesario. Los datos almacenados en el log deben presentar una cobertura acorde a las reglamentaciones y leyes dispuestas por el país ante los temas de privacidad de la información o directivas similares y se debe garantizar que se gestiona de forma segura. Es por ello que la aplicación debe contar con:     
-              a.anexo(:href="obtenerLink('downloads/Anexo8_LC_GestionRegistroErrores_Tabla7.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo7_ListadeChequeoGestionyRegistrodeErrores_Tabla7.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo8_LC_GestionRegistroErrores_Tabla7  
+                  p.m-0 Lista de Chequeo: Gestión y registro de errores 
           
-          .row(numero="3" titulo="Protección de Datos")
+          .row(numero="h" titulo="Protección de Datos")
             .col-12
-              p Este requisito de verificación se centra en la confidencialidad, integridad y disponibilidad de los datos, teniendo presente que esto se aplica en un servidor de aplicaciones lo que permite asumir que posee protecciones confiables y suficientes. Sin embargo, un sistema debe comprender que todos los dispositivos de los usuarios pueden comprometer la seguridad de alguna forma en el proceso de transmisión de información, por lo que es responsabilidad de la aplicación que los datos persistidos en algún dispositivo esté cifrado y sea complicado o imposible obtenerlo, alterarlo o divulgarlo. A continuación, se identifican los por menores que debe cumplir en temas de protección de datos:          
-              a.anexo(:href="obtenerLink('downloads/Anexo9_LC_ProteccionDatos_Tabla8.pdf')" target="_blank")
+              p Este requisito de verificación se centra en la confidencialidad, integridad y disponibilidad de los datos, teniendo presente que esto se aplica en un servidor de aplicaciones, lo que permite asumir que posee protecciones confiables y suficientes. Sin embargo, un sistema debe comprender que todos los dispositivos de los usuarios pueden comprometer la seguridad de alguna forma en el proceso de transmisión de información, por lo que es responsabilidad de la aplicación que los datos persistidos en algún dispositivo esté cifrado y sea complicado o imposible obtenerlo, alterarlo o divulgarlo. A continuación, se identifican los pormenores que debe cumplir en temas de protección de datos:          
+              a.anexo(:href="obtenerLink('downloads/Anexo8_ListadeChequeoProtecciondeDatos_Tabla8.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo9_LC_ProteccionDatos_Tabla8
+                  p.m-0 Lista de Chequeo: Protección de Datos
 
-          .row(numero="4" titulo="Seguridad de las Comunicaciones")
+          .row(numero="i" titulo="Seguridad de las Comunicaciones")
             .col-12
               p Para el elemento de seguridad de las comunicaciones es obligatorio que se cubran los requisitos siguientes:  
-              a.anexo(:href="obtenerLink('downloads/Anexo10_LC_SeguridadComunicaciones_Tabla9.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo9_ListadeChequeoSeguridaddelasComunicaciones_Tabla9.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo10_LC_SeguridadComunicaciones_Tabla9     
+                  p.m-0 Lista de Chequeo: Seguridad de las Comunicaciones 
           
-          .row(numero="5" titulo="Configuración de seguridad HTTP")
+          .row(numero="j" titulo="Configuración de seguridad HTTP")
             .col-12
               p La configuración de seguridad HTTP necesita asegurar lo siguiente: 
-              a.anexo(:href="obtenerLink('downloads/Anexo11_LC_ConfiguracionSeguridad HTTP_Tabla10.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo10_ListadeChequeoConfiguraciondeSeguridadHTTP_Tabla10.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo11_LC_ConfiguracionSeguridad HTTP_Tabla10      
+                  p.m-0 Lista de Chequeo: Configuración de seguridad HTTP
           
       .col-md-5.mb-4.mb-lg-0
         figure(data-aos="fade-right")
@@ -443,41 +443,41 @@
           img(src='@/assets/curso/tema2/img21.svg')
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Controles Maliciosos")
+          .row(numero="k" titulo="Controles Maliciosos")
             .col-12
-              p El requisito de control malicioso es susceptible de no ser detectado con facilidad, puesto que debe ser revisado minuciosamente el código fuente por un experto en el tema de forma manual para detectar bombas lógicas alojadas en alguna línea indetectable a simple vista. Por ello, En este se deben satisfacer los elementos de alto nivel presentados a continuación:
-              a.anexo(:href="obtenerLink('downloads/Anexo12_LC_ControlesMaliciosos_Tabla11.pdf')" target="_blank")
+              p El requisito de control malicioso es susceptible de no ser detectado con facilidad, puesto que debe ser revisado minuciosamente el código fuente por un experto en el tema de forma manual para detectar bombas lógicas alojadas en alguna línea indetectable a simple vista. Por ello, en este se deben satisfacer los elementos de alto nivel presentados a continuación:
+              a.anexo(:href="obtenerLink('downloads/Anexo11_ListadeChequeoControlesMaliciosos_Tabla11.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo12_LC_ControlesMaliciosos_Tabla11
+                  p.m-0 Lista de Chequeo: Controles Maliciosos
           
-          .row(numero="2" titulo="Lógica de negocios")
+          .row(numero="l" titulo="Lógica de negocios")
             .col-12
               p Para este requisito de verificación se necesita satisfacer las siguientes características:
-              a.anexo(:href="obtenerLink('downloads/Anexo13_LC_LogicaNegocios_Tabla12.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo12_ListadeChequeoLogicadeNegocios_Tabla12.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo13_LC_LogicaNegocios_Tabla12            
+                  p.m-0 Lista de Chequeo: Lógica de negocios         
           
-          .row(numero="3" titulo="Archivos y recursos")
+          .row(numero="m" titulo="Archivos y recursos")
             .col-12
               p Para los archivos y recursos se deben remediar los requisitos tales como:
-              a.anexo(:href="obtenerLink('downloads/Anexo14_LC_Archivos y recursos_Tabla13.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo13_ListadeChequeoArchivosyrecursos_Tabla13.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo14_LC_Archivos y recursos_Tabla13             
+                  p.m-0 Lista de Chequeo: Archivos y recursos            
 
-          .row(numero="4" titulo="Servicios <em>Web</em>")
+          .row(numero="n" titulo="Servicios <em>Web</em>")
             .col-12
               p Es necesario que la aplicación verifique que al utilizar servicios <em>web</em> REST o SOAP mantenga:
-              a.anexo(:href="obtenerLink('downloads/Anexo15_LC_ServiciosWeb_Tabla14.pdf')" target="_blank")
+              a.anexo(:href="obtenerLink('downloads/Anexo14_ListadeChequeoServiciosWeb_Tabla14.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p Anexo15_LC_ServiciosWeb_Tabla14
+                  p.m-0 Lista de Chequeo: Servicios Web
 
     .bg_6.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -597,7 +597,7 @@
     separador 
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-        h2 2.5 Definición de los Indicadores en Aplicaciones <em>Web</em>
+        h2 2.5 Definición de Métricas de Seguridad en Aplicaciones <em>Web</em>
 
     p Como se indicó anteriormente los KPI necesitan de ciertas métricas para su confección y refinamiento; sin embargo, está claro que se puede seleccionar cualquier variable de la gran cantidad que pueden generar una programa sobre el ecosistema de temas en seguridad; por esta razón, es pertinente aclarar cómo se debe establecer si una métrica está acorde a lo que se necesita para el plan estratégico de seguridad de las aplicaciones <em>web</em>. Así, las características más sobresalientes de las métricas son:
 
