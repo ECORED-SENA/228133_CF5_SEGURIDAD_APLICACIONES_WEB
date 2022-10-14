@@ -267,8 +267,7 @@ export default {
       link: '',
     },
     {
-      referencia:
-        'Git. [En línea] 17 de mayo de 2022. [Citado el: 17 de mayo de 2022.]',
+      referencia: 'Git. Git--fast-version-control (2022).',
       link: 'https://git-scm.com/download/win',
     },
     {

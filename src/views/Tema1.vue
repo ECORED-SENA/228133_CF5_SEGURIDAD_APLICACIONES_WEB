@@ -9,12 +9,12 @@
 
     .bg_fondo1
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-8(data-aos="fade-right")
+        .col-lg-8.order-last.order-lg-first(data-aos="fade-right")
           p Las últimas décadas presenciaron la masificación de internet y los dispositivos inteligentes trayendo consigo el estallido de las aplicaciones sociales y la era de la conexión total, esta revolución, generó un sinnúmero de acontecimientos que modificaron la forma como las personas ven los dispositivos o herramientas tecnológicas; puesto que, ahora se le da mayor prioridad a las cuentas, usuarios y contactos por encima del <em>hardware</em>, dado que este, es fácil de cambiar o mejorar por un nuevo dispositivo. 
           p Esto indica que para las personas el activo más importante es su información personal y esta premisa es un común denominador que se extiende a las organizaciones y empresas, puesto que, dicha información es sensible y vital para el buen desarrollo de las actividades diarias, de los procesos pertinentes y en la prestación de sus servicios. Esto claramente indica la innegable dependencia de la tecnología y del activo informático, siendo los soportes claros de los sistemas de una organización. No obstante, no ha sido siempre de esta manera. 
-        .col-lg-4(data-aos="fade-left")
+        .col-lg-4.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-left")
           figure
-            img.img-t(src='@/assets/curso/tema1/img02.png', alt='')
+            img.img-t.mx-auto(src='@/assets/curso/tema1/img02.png', alt='')
     
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.mb-4.mb-lg-0(data-aos="fade-left")

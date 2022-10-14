@@ -343,7 +343,7 @@
     .row.justify-content-center.mb-5
       .col-md-5.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img.img-t(src='@/assets/curso/tema2/img19.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img19.svg')
       .col-md-7.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           p.mt-3(numero="a" titulo="Lista de Chequeo Requisitos de seguridad en Aplicaciones <em>Web</em>") Para conseguir los indicadores y sus métricas es necesario conocer los requisitos de seguridad que se pretenden verificar en una aplicación <em>web</em>, es por ello que se presenta a continuación una lista de estos, basado en la propuesta del <b>ASVS</b> en su versión 4.0. (OWASP. 2021).
@@ -492,11 +492,10 @@
         .bg_2.p-2
           p.text-bold.m-0.ms-3 Indicadores Claves de Rendimiento (KPI, Key Performance Indicator)
 
-
     .row.justify-content-center.mb-5
       .col-lg-3.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema2/img22.png')
+          img.img-t.mx-auto(src='@/assets/curso/tema2/img22.png')
       .col-lg-9(data-aos="fade-left")   
         p Para afirmar que un proceso, servicio o producto mejora durante la ejecución de un plan, es necesario que existan mediciones que permitan evaluar, comparar y contrastar resultados a fin de respaldar esta declaración (G. V. Ríos, John A. Bohada e I. A. Delgado, 2018). Por esta razón el área de TI durante la fase de “Definición de los Indicadores y Métricas de la Seguridad en Aplicaciones <em>Web</em>”, del plan estratégico debe centrar sus esfuerzos en identificar los KPI y las métricas asociadas a ellos para brindar a los stakeholders un conjunto de herramientas e información puntual que les permitirá tomar decisiones y realizar acciones proactivas/reactivas frente a los objetivos del negocio y el direccionamiento estratégico de la organización.
         p Ahora bien, antes de identificarlos es importante entender y diferenciar un KPI de una métrica para que el proceso de establecer ambos elementos sea exitoso:
@@ -531,68 +530,70 @@
 
     p Para establecer los KPI para el plan estratégico de seguridad en aplicaciones <em>web</em> que se van a estar monitoreando se pueden seguir algunos consejos simples que lo facilitan:
 
-    .bg_slyder.p-5
-      SlyderA(tipo="b")
-        .row.justify-content-around
-          .col-lg-5.mb-4.mb-lg-0
-            h4 Seleccionar del listado de requisitos por componente los criterios básicos a medir basados en el nivel de verificación en el plan estratégico en la fase tres
-            p Tener presente que los KPI deben ser muy concretos y específicos, apuntando a un solo objetivo y midiendo un solo parámetro y sin tener múltiples aristas.
-            p.mb-4 Por ejemplo: 
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                  span Ver más
-                  .indicador--click(v-if="mostrarIndicador")                                         
-          .col-lg-6(data-aos="fade-right") 
-            figure
-              img.img-t.mx-auto(src='@/assets/curso/tema2/img25.png', alt='AvatarTop')
+    .row
+      .col-lg-12
+        .bg_slyder.p-5
+          SlyderA(tipo="b")
+            .row.justify-content-around
+              .col-lg-5.mb-4.mb-lg-0
+                h4 Seleccionar del listado de requisitos por componente los criterios básicos a medir basados en el nivel de verificación en el plan estratégico en la fase tres
+                p Tener presente que los KPI deben ser muy concretos y específicos, apuntando a un solo objetivo y midiendo un solo parámetro y sin tener múltiples aristas.
+                p.mb-4 Por ejemplo: 
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                      span Ver más
+                      .indicador--click(v-if="mostrarIndicador")                                         
+              .col-lg-6(data-aos="fade-right") 
+                figure
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img25.png', alt='AvatarTop')
 
-        .row.justify-content-around
-          .col-lg-5.mb-4.mb-lg-0
-            h4 Seleccionar el requisito y la medida a realizar
-            p Después de seleccionado el requisito y la medida a realizar se debe validar contra qué factor se va a comparar. 
-            p.mb-4 Por ejemplo: 
-            .row
-              .col-auto
-                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
-                  span Ver más
-                  .indicador--click(v-if="mostrarIndicador1")                       
-          .col-lg-6
-            figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema2/img26.png', alt='AvatarTop')            
+            .row.justify-content-around
+              .col-lg-5.mb-4.mb-lg-0
+                h4 Seleccionar el requisito y la medida a realizar
+                p Después de seleccionado el requisito y la medida a realizar se debe validar contra qué factor se va a comparar. 
+                p.mb-4 Por ejemplo: 
+                .row
+                  .col-auto
+                    a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                      span Ver más
+                      .indicador--click(v-if="mostrarIndicador1")                       
+              .col-lg-6
+                figure.mb-4
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img26.png', alt='AvatarTop')            
 
-        .row.justify-content-around
-          .col-lg-5
-            h4 Tener la capacidad de decisión con respecto a los resultados positivos o negativos
-            p Por último, es necesario que el equipo de TI tenga la capacidad de decisión con respecto a los resultados positivos o negativos en el tiempo, puesto que, los KPI se usan para plantear estrategias que puedan mitigar problemas que ocurren o que podrían suceder.
-            p No basta solo con medir, sino que se debe tener plena confianza en las oportunidades de mejora que brindan los indicadores y sus respectivas métricas.
-          .col-lg-6
-            figure.mb-4
-              img.img-t.mx-auto(src='@/assets/curso/tema2/img27.png', alt='AvatarTop')
+            .row.justify-content-around
+              .col-lg-5
+                h4 Tener la capacidad de decisión con respecto a los resultados positivos o negativos
+                p Por último, es necesario que el equipo de TI tenga la capacidad de decisión con respecto a los resultados positivos o negativos en el tiempo, puesto que, los KPI se usan para plantear estrategias que puedan mitigar problemas que ocurren o que podrían suceder.
+                p No basta solo con medir, sino que se debe tener plena confianza en las oportunidades de mejora que brindan los indicadores y sus respectivas métricas.
+              .col-lg-6
+                figure.mb-4
+                  img.img-t.mx-auto(src='@/assets/curso/tema2/img27.png', alt='AvatarTop')
 
-      ModalA(:abrir-modal.sync="modal2")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h5.mb-4 Requisito de verificación de Arquitectura, Diseño y Modelado de amenazas.
-            ul.lista-ul--color.mb-4
-              li.ms-2
-                i.fas.fa-check-circle
-                | Identificar información sensible de código que es visible del lado del cliente.
-              li.ms-2
-                i.fas.fa-check-circle
-                | Contar el número de llamadas a librerías externas o programas de terceros, potencialmente inseguros.
+          ModalA(:abrir-modal.sync="modal2")
+            .row.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h5.mb-4 Requisito de verificación de Arquitectura, Diseño y Modelado de amenazas.
+                ul.lista-ul--color.mb-4
+                  li.ms-2
+                    i.fas.fa-check-circle
+                    | Identificar información sensible de código que es visible del lado del cliente.
+                  li.ms-2
+                    i.fas.fa-check-circle
+                    | Contar el número de llamadas a librerías externas o programas de terceros, potencialmente inseguros.
 
-      ModalA(:abrir-modal.sync="modal1")
-        .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
-            h5.mb-4 Requisito de verificación de Arquitectura, Diseño y Modelado de amenazas.
-            ul.lista-ul--color.mb-4
-              li.ms-2
-                i.fas.fa-check-circle
-                | Disminuir a cero la información sensible de código visible del lado del cliente.
-              li.ms-2
-                i.fas.fa-check-circle
-                | Llevar el código a solo realizar un 10 % de llamadas a librerías externas o programas de terceros.
+          ModalA(:abrir-modal.sync="modal1")
+            .row.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h5.mb-4 Requisito de verificación de Arquitectura, Diseño y Modelado de amenazas.
+                ul.lista-ul--color.mb-4
+                  li.ms-2
+                    i.fas.fa-check-circle
+                    | Disminuir a cero la información sensible de código visible del lado del cliente.
+                  li.ms-2
+                    i.fas.fa-check-circle
+                    | Llevar el código a solo realizar un 10 % de llamadas a librerías externas o programas de terceros.
 
     separador 
 
@@ -689,15 +690,15 @@
               img.img-t.mx-auto(src='@/assets/curso/tema2/img35.png', alt='AvatarTop')            
 
         .row.justify-content-around
-          .col-lg-5
+          .col-lg-5.mb-4.mb-lg-0
             h4 Métricas de <em>software</em>
             p Las métricas que tienen como finalidad el <em>software</em> tienen una dependencia directa del ciclo de vida de la construcción de aplicaciones y la arquitectura, el diseño y el modelado del <em>software</em>. Las organizaciones deben documentar sus métricas en un formato estándar para asegurar la aplicación del modelo, adaptación, recopilación y presentación de informes.
             p Ver ejemplo de documentación de un indicador para prevenir código malicioso y el respectivo proceso de cálculo de su métrica asociada:
-            a.anexo(:href="obtenerLink('downloads/Anexo_16_Documentaciontabla_Tabla15.pdf')" target="_blank")
+            a.anexo(:href="obtenerLink('downloads/Anexo15_Documentaciontabla_Tabla15.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p Anexo16__DocumentacionTabla_Tabla15
+                p.m-0 Documentación Tabla
           .col-lg-6
             figure.mb-4
               img.img-t.mx-auto(src='@/assets/curso/tema2/img36.png', alt='AvatarTop')            

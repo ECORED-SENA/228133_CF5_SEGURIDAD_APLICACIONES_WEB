@@ -12,7 +12,7 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Artefactos de Entrada" :icono="require('@/assets/curso/tema3/img01.svg')")
         .row.justify-content-center.align-items-center.color4
-          .col-md-7.mb-4.mb-md-0
+          .col-md-12.col-lg-7.mb-4.mb-md-0
             h4.mb-4 Artefactos de Entrada
             ul.lista-ul--color.mb-4
               li.ms-2
@@ -23,15 +23,14 @@
                 p.m-0 Objetivos del plan estratégico de seguridad en aplicaciones <em>web</em>.
               li.ms-2
                 i.fas.fa-check-circle
-                | Meta establecida del nivel de verificación ASVS.
-        
-          .col-md-4
+                | Meta establecida del nivel de verificación ASVS.        
+          .col-md-12.col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema3/img04.png', alt='Texto que describa la imagen')
         
       .py-4.py-md-5(titulo="Actividades" :icono="require('@/assets/curso/tema3/img02.svg')")
         .row.justify-content-center.align-items-center.color4
-          .col-md-7.mb-4.mb-md-0
+          .col-md-12.col-lg-7.mb-4.mb-md-0
             h4.mb-4 Actividades
             ul.lista-ul--color.mb-4
               li.ms-2
@@ -45,15 +44,14 @@
                 p.m-0 Establecer planes de acción y futuros proyectos para tratar de minimizar la brecha y pensar en llegar a un estado superior de nivel de verificación en seguridad de aplicaciones <em>web</em>.
               li.ms-2
                 i.fas.fa-check-circle
-                | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.
-        
-          .col-md-4
+                | Generar los artefactos de salida a partir del análisis realizado en las actividades anteriores.        
+          .col-md-12.col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema3/img05.png', alt='Texto que describa la imagen')
       
       .py-4.py-md-5(titulo="Herramientas de calidad de código" :icono="require('@/assets/curso/tema3/img03.svg')")
         .row.justify-content-center.align-items-center.color4
-          .col-md-7.mb-4.mb-md-0
+          .col-md-12.col-lg-7.mb-4.mb-md-0
             h4.mb-4 Herramientas de calidad de código
             ul.lista-ul--color.mb-4
               li.ms-2
@@ -66,7 +64,7 @@
                 i.fas.fa-check-circle
                 p.m-0 Paquete final de indicadores y métricas para el plan estratégico de seguridad de las aplicaciones <em>web</em>.
         
-          .col-md-4
+          .col-md-12.col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema3/img06.png', alt='Texto que describa la imagen')
 
@@ -171,12 +169,12 @@
           p.text-bold.m-0.ms-3 OWASP Juice Shop 
 
     .row.justify-content-between.mb-4
-      .col-lg-8(data-aos="fade-right") 
+      .col-lg-8.order-last.order-lg-first(data-aos="fade-right") 
         p Este proyecto de OWASP consiste en la exposición de una aplicación <em>web</em> moderna y sofisticada que usa tecnologías actuales como <b>Node.js, Express</b> y <b>Angular,</b> pero que presenta una gran cantidad de vulnerabilidades en materia de seguridad; esto con el fin de realizar capacitación en esta materia, demostraciones de fallos y concientización para la comunidad <em>software</em> en general. Además sirve también como ejemplo para las otras herramientas como <b>OWASP ZAP,</b> entre otras.
         p <b>Juice Shop</b> contiene todas las vulnerabilidades del <b>OWASP Top Ten,</b> junto a otro gran número de falencias en temas de seguridad que se basan en todos los hallazgos encontrados en aplicaciones <em>web</em> en la comunidad global. Dentro de ella se pueden descubrir gran variedad de ejemplos y desafíos de piratería informática de dificultad variable que el usuario debe explotar; a medida que se avanza con estas dinámicas el progreso se aprecia en un tablero de puntuación.
       .col-auto(data-aos="fade-down") 
         .verticalLine.d-none.d-lg-block      
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left") 
+      .col-lg-3.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-left") 
         figure
           img.img-t.m-auto(src='@/assets/curso/tema3/img13.svg', alt='')
 
@@ -257,7 +255,7 @@
       .row.align-items-center.mb-4
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right") 
           figure
-            img.m_bottom1.m_left2(src='@/assets/curso/tema3/img18.png', alt='')
+            img.img-t.mx-auto.m_bottom1.m_left2(src='@/assets/curso/tema3/img18.png', alt='')
         .col-lg-7(data-aos="fade-left") 
           .row
             .col-lg-12.m_left1
@@ -375,7 +373,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema3/img29.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema3/img29.svg')
       .col-lg-8(data-aos="fade-left")   
         p Esta herramienta de análisis y rastreo de red que identifica el tráfico que más congestiona el flujo de datos permite prevenir eventos y problemas que se generen por consecuencia de ello. PRTG provee características avanzadas en el descubrimiento automatizado de la red, con un énfasis en la seguridad ya que alerta al usuario ante eventuales fallos o emergencias a través del envío de correo o mensaje de texto.
         p La aplicación tiene compatibilidad con navegadores, interfaces de usuario de windows y iphone, permitiendo el acceso en cualquier momento y desde cualquier ubicación. Además, le brinda al usuario el monitoreo del ancho de banda de la red y los clientes conectados a la misma, con el plus de indicar con qué propósito se conectan (PRTG, 2022).
